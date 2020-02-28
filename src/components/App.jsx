@@ -21,14 +21,14 @@ class App extends React.Component {
       <div>
         <Navbar />
         <Header />
-          <Switch>
-            <Route exact path='/' render={() => <Home />} />
+        <Switch>
+          <Route exact path='/' render={() => <Home />} />
 
-            <Route path='/ticketlist' render={() => <TicketList 
-               listOfTickets={this.props.masterTicketList} />} />
+          <Route path='/ticketlist' render={() => <TicketList
+            listOfTickets={this.props.masterTicketList} />} />
 
-            <Route component={Error404} />
-          </Switch>
+          <Route component={Error404} />
+        </Switch>
         <style global jsx>{`
           body {
             font-family:  Arial, Helvetica, sans-serif;

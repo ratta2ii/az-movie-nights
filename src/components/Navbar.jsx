@@ -1,35 +1,32 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Navbar.css';
 import hamburger from '../assets/images/hamburger-edit.png';
 
 
-function Navbar() {
 
-  console.log("I am hamburger" + hamburger);
+export default function Navbar() {
 
-  let hamburgerDiv = {
-    background: `url(${hamburger}) no-repeat`
-    // width: '50px',
-    // height: '50px',
-    // float: 'right',
-    // margin: '25px 105px 0 0'
-  };
-
+  function handleDisplaySideNavBar() {
+    let tester = document.getElementsByClassName('navBody');
+    console.log('Click event works!' + tester);
+  }
 
   return (
     <div>
-      <div style={hamburgerDiv}>
+      <div className={styles.hamburgerDiv} onClick={handleDisplaySideNavBar}>
+        <img src={hamburger} className={styles.hamburgerStyling} />
       </div>
+
       <div className={styles.navBody}>
-        <h1>I am the Navbar!</h1>
-        <h2 className={styles.tester}>I am tester class</h2>
+        <ul>
+          <Link to="/"><li className={styles.homeLink} >Home</li></Link>
+          <Link to="/"><li className={styles.listElements} >Products</li></Link>
+          <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
+          <Link to="/"><li className={styles.listElements} >Admin</li></Link>
+        </ul>
       </div>
     </div>
   );
+
 }
-
-export default Navbar;
-
-
-
-

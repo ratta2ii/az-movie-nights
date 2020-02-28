@@ -1,20 +1,74 @@
-
-.tester {
-  color: green;
-}
-
 .navBody {
-  color: purple;
+  display: none;
+  padding: 30px 0;
+  margin-bottom: 50px;
+  color: rgba(0, 0, 0, 0.482);
+  height: 100px;
 }
 
-@media only screen and (max-width: 1500px) {
+.hamburgerDiv {
+  width: 40px;
+  height: 35px;
+  float: right;
+  margin: 35px 50px 0 0
+} 
+
+.hamburgerStyling {
+  width: 100%;
+  height: 100%;
+}
+
+.listElements {
+  float: left;
+  font-size: 20px;
+  border: 3px solid darkblue;
+  color: gray;
+  padding: 10px;
+  list-style-type: none;
+  margin: 0px -2px;
+}
+
+.homeLink {
+  float: left;
+  font-size: 20px;
+  border: 3px solid darkblue;
+  color: gray;
+  padding: 10px;
+  list-style-type: none;
+  margin-right: -2px;
+  margin-left: 10px;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+ 
   .tester {
     color: yellow;
   }
+
 }
 
-@media only screen and (max-width: 1100px) {
+
+
+@media only screen and (min-width: 800px) {
+  
   .navBody {
+    color: purple;
+    display: none;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+ 
+  .navBody {
+    display: unset;
+  } 
+  .hamburgerDiv {
     display: none;
   }
   
@@ -24,21 +78,34 @@
 
 }
 
-@media only screen and (max-width: 900px) {
+
+
+@media only screen and (min-width: 1200px) {
+ 
   .tester {
     color: red;
   }
+ 
 }
 
-@media only screen and (max-width: 700px) {
+
+
+@media only screen and (min-width: 1500px) {
+  
   .tester {
     color: purple;
   }
+
 }
 
-@media only screen and (max-width: 700px) {
- 
 
+
+@media only screen and (min-width: 1800px) {
+
+  .navBody {
+    color: purple;
+    display: none;
+  }
 
 }
 
