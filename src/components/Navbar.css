@@ -1,16 +1,23 @@
+.navContainer {
+  width: 100%;
+  background-color: black;
+  margin: 0 0 100px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-bottom: 25px;
+}
+
 .navBody {
   display: none;
-  padding: 30px 0;
-  margin-bottom: 50px;
-  color: rgba(0, 0, 0, 0.482);
-  height: 100px;
+  margin: 0;
 }
 
 .hamburgerDiv {
   width: 40px;
   height: 35px;
   float: right;
-  margin: 35px 50px 0 0
+  margin: 25px 40px 0 0;
 } 
 
 .hamburgerStyling {
@@ -21,22 +28,21 @@
 .listElements {
   float: left;
   font-size: 20px;
-  border: 3px solid darkblue;
-  color: gray;
-  padding: 10px;
+  color: white;
+  border: 2px solid white;
   list-style-type: none;
-  margin: 0px -2px;
+  padding: 10px;
 }
 
 .homeLink {
   float: left;
   font-size: 20px;
-  border: 3px solid darkblue;
-  color: gray;
-  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white;
   list-style-type: none;
-  margin-right: -2px;
-  margin-left: 10px;
+  margin-left: 40%;
+  color: red;
+  padding: 10px
 }
 
 
@@ -44,34 +50,58 @@
 
 @media only screen and (min-width: 600px) {
  
-  .tester {
-    color: yellow;
-  }
-
-}
-
-
-
-@media only screen and (min-width: 800px) {
-  
-  .navBody {
-    color: purple;
-    display: none;
-  }
-
-}
-
-
-
-@media only screen and (min-width: 1000px) {
- 
   .navBody {
     display: unset;
   } 
   .hamburgerDiv {
     display: none;
   }
+  .homeLink {
+    margin-left: 39%;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 650px) {
+  .homeLink {
+    margin-left: 45%;
+  }
+}
+
+
+@media only screen and (min-width: 700px) {
+  .homeLink {
+    margin-left: 48%;
+  }
+}
+
+
+@media only screen and (min-width: 750px) {
+  .homeLink {
+    margin-left: 45%;
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
   
+ 
+  .homeLink {
+    margin-left: 55%;
+  }
+  .hamburgerDiv {
+    margin: 30px 40px 0 0;
+  } 
+
+}
+
+
+
+@media only screen and (min-width: 900px) {
+ 
+
   .tester {
     color: blue;
   }

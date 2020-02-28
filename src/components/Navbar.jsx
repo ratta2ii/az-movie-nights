@@ -13,11 +13,7 @@ export default function Navbar() {
   }
 
   return (
-    <div>
-      <div className={styles.hamburgerDiv} onClick={handleDisplaySideNavBar}>
-        <img src={hamburger} className={styles.hamburgerStyling} />
-      </div>
-
+    <div className={styles.navContainer}>
       <div className={styles.navBody}>
         <ul>
           <Link to="/"><li className={styles.homeLink} >Home</li></Link>
@@ -25,6 +21,9 @@ export default function Navbar() {
           <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
           <Link to="/"><li className={styles.listElements} >Admin</li></Link>
         </ul>
+      </div>
+      <div className={styles.hamburgerDiv} onClick={handleDisplaySideNavBar}>
+        <img src={hamburger} className={styles.hamburgerStyling} />
       </div>
     </div>
   );
