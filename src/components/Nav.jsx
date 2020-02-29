@@ -15,14 +15,14 @@ export default function Navbar() {
 
   return (
     <div>
-
-      <img id="hamburger" src="hamburger.png" />
-      <nav className={navContainer} >
-        <ul className={ulTag}>
-          <li className={listElements}><a href="#">Home</a></li>
-          <li className={listElements}><a href="#">About me</a></li>
-          <li className={listElements}><a href="#">Portfolio</a></li>
-          <li className={listElements}><a href="#">Contact</a></li>
+      <h1>I am the Nav!!!!</h1>
+      <img className={styles.hamburgerIcon} src={hamburger} />
+      <nav className={styles.navContainer} >
+        <ul className={styles.ulTag}>
+          <li><a className={styles.anchorTag} href="#">Home</a></li>
+          <li><a className={styles.anchorTag} href="#">About me</a></li>
+          <li><a className={styles.anchorTag} href="#">Portfolio</a></li>
+          <li><a className={styles.anchorTag} href="#">Contact</a></li>
         </ul>
       </nav>
     </div>

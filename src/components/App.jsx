@@ -6,7 +6,7 @@ import Error404 from './Error404';
 import blueBg from '../assets/images/blue.jpg';
 import Home from './Home';
 import Header from './Header';
-import Navbar from './Navbar';
+import Nav from './Nav';
 import TicketList from './TicketList';
 import c from './../constants';
 // import Moment from 'moment';
@@ -19,8 +19,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <Navbar />
-        <Header />
+        <Nav />
         <Switch>
           <Route exact path='/' render={() => <Home />} />
 
