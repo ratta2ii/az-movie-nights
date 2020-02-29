@@ -34,6 +34,10 @@ class App extends React.Component {
             font-size: 18px;
             background: url('${blueBg}');
           }
+          div {
+            padding: 0;
+            margin: 0;
+          }
         `}</style>
       </div>
     );

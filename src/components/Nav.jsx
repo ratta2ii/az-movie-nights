@@ -4,8 +4,6 @@ import styles from './Nav.css';
 import hamburger from '../assets/images/hamburger-edit.png';
 
 
-
-
 export default function Nav() {
 
   function handleDisplaySideNavBar(e) {
@@ -14,10 +12,18 @@ export default function Nav() {
     e.preventDefault();
   }
 
+  let navCom = {
+    backgroundColor: 'black',
+    height: '100px'
+  };
+
+
   return (
-    <div>
-      <img className={styles.hamburgerIcon} src={hamburger} onClick={handleDisplaySideNavBar}/>
-      <nav className={styles.navContainer} >
+    <div style={navCom}>
+
+      <img className={styles.hamburgerIcon} src={hamburger} onClick={handleDisplaySideNavBar} />
+
+      <nav className={styles.sidebarContainer} >
         <ul className={styles.ulTag}>
           <li><a className={styles.anchorTag} href="#">Home</a></li>
           <li><a className={styles.anchorTag} href="#">About me</a></li>
@@ -25,11 +31,21 @@ export default function Nav() {
           <li><a className={styles.anchorTag} href="#">Contact</a></li>
         </ul>
       </nav>
+
+
+      <nav className={styles.navbarContainer}>
+        <ul className={styles.ulTag2} >
+          <Link to="/"><li className={styles.homeLink} >Home</li></Link>
+          <Link to="/"><li className={styles.listElements} >Products</li></Link>
+          <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
+          <Link to="/"><li className={styles.listElements} >Admin</li></Link>
+        </ul>
+      </nav>
       <style global jsx>{`
          .active {
           position: absolute;
           display: block;
-          background: rgb(68, 100, 204);
+          background: #fab759;
           width: 40%;
           left: 0;
           top: 0;
@@ -39,33 +55,4 @@ export default function Nav() {
     </div>
 
   );
-
 }
-
-
-
-// <div>
-// <h1>I am the Nav!!!!</h1>
-// <img className={styles.hamburgerIcon} src={hamburger} onClick={handleDisplaySideNavBar}/>
-// <nav className={styles.navContainer} >
-//   <ul className={styles.ulTag}>
-//     <li><a className={styles.anchorTag} href="#">Home</a></li>
-//     <li><a className={styles.anchorTag} href="#">About me</a></li>
-//     <li><a className={styles.anchorTag} href="#">Portfolio</a></li>
-//     <li><a className={styles.anchorTag} href="#">Contact</a></li>
-//   </ul>
-// </nav>
-// <style global jsx>{`
-//    .active {
-//     position: absolute;
-//     display: block;
-//     background: rgb(68, 100, 204);
-//     width: 40%;
-//     left: 0;
-//     top: 0;
-//     height: 100%;
-//   }
-//   `}</style>
-// </div>
-
-

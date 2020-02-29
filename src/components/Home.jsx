@@ -4,12 +4,13 @@ import React from 'react';
 function Home() {
 
   let background = {
-    backgroundColor: '#ffafaf'
+    backgroundColor: 'black',
+    padding: '5px'
   };
 
   return (
-    <div style={background}>
-      <h1>Welcome to the homepage!</h1>
+    <div>
+
     </div>
   );
 }
