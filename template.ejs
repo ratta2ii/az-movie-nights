@@ -2,19 +2,42 @@
 <head>
   <meta charset="utf-8">
   <title><%= htmlWebpackPlugin.options.title %></title>
+  
   <style>
     * {
       box-sizing: border-box;
-    }
-    body {
       margin: 0px;
       padding: 0px;
     }
+
+    div {
+      padding: 0;
+      margin: 0;
+    }
+
+    button:focus {
+      outline: 0;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    button:active {
+      outline: none;
+      border: none;
+    }
   </style>
+
 </head>
-  <body>
-    <% if (htmlWebpackPlugin.options.appMountId) { %>
-      <div id="<%= htmlWebpackPlugin.options.appMountId%>"></div>
-    <% } %>
-  </body>
+<body>
+  <% if (htmlWebpackPlugin.options.appMountId) { %>
+  <div id="<%= htmlWebpackPlugin.options.appMountId%>"></div>
+  <% } %>
+</body>
+
 </html>

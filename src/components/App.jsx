@@ -3,46 +3,34 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Error404 from './Error404';
-import blueBg from '../assets/images/blue.jpg';
 import Home from './Home';
-import Header from './Header';
-import Nav from './Nav';
 import TicketList from './TicketList';
-import c from './../constants';
+import ProductList from './ProductList';
+// import c from './../constants';
 // import Moment from 'moment';
 // import { v4 } from 'uuid';
 
 
-class App extends React.Component {
 
-  render() {
+function App() {
 
-    return (
-      <div>
-        <Nav />
-        <Switch>
-          <Route exact path='/' render={() => <Home />} />
+  return (
+    <div>
+      <Switch>
+        <Route exact path='/' render={() => <Home />} />
 
-          <Route path='/ticketlist' render={() => <TicketList
-            listOfTickets={this.props.masterTicketList} />} />
+        <Route path='/ticketlist' render={() => <ProductList
+          listOfTickets={this.props.masterTicketList} />} />
 
-          <Route component={Error404} />
-        </Switch>
-        <style global jsx>{`
-          body {
-            font-family:  Arial, Helvetica, sans-serif;
-            font-size: 18px;
-            background: url('${blueBg}');
-          }
-          div {
-            padding: 0;
-            margin: 0;
-          }
+        <Route component={Error404} />
+      </Switch>
+      <style global jsx>{`
+  
         `}</style>
-      </div>
-    );
-  }
+    </div>
+  );
 }
+
 
 App.propTypes = {
   masterTicketList: PropTypes.object

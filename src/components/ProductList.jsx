@@ -2,10 +2,10 @@ import React from 'react';
 import soundImage from '../assets/images/sound.jpg';
 import packageImage from '../assets/images/package.png';
 import { Link } from 'react-router-dom';
-import styles from './Products.css';
+import styles from './ProductList.css';
 
 
-function Header() {
+function ProductList() {
 
   return (
     <div>
@@ -37,4 +37,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default ProductList;
