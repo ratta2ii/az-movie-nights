@@ -1,17 +1,16 @@
 import React from 'react';
+import styles from './Header.css';
 
 
-function Header() {
-
-  let background = {
-    backgroundColor: '#ffafaf'
-  };
+export default function Header() {
 
   return (
-    <div style={background}>
-      <h1>I am the Header Component!</h1>
+    <div>
+      <div className={styles.titleArea}>
+        <h1 className={styles.mainTitle}><span className={styles.azTitle}>AZ</span> MOVIE NIGHTS</h1>
+        <p className={styles.commentMain}>"AZ Event Team has provided an awesome experience. The movie was the hit of the hit of the party. I Will defintley book again."</p>
+        <p className={styles.commentSignature}>- Satisfied Customer</p>
+      </div>
     </div>
   );
 }
-
-export default Header;
