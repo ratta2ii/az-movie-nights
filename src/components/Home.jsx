@@ -1,6 +1,7 @@
 import React from 'react';
-// import Screens from './Screens';
-import ProductList from './ProductList';
+import Screens from './Screens';
+import Header from './Header';
+import AllProducts from './AllProducts';
 import Nav from './Nav';
 import bgImage from '../assets/images/bg1.jpg';
 
@@ -21,8 +22,10 @@ function Home() {
   return (
     <div style={background}>
       <Nav />
+      <Header />
+      <Screens />
       <h1></h1>
-      <ProductList />
+      <AllProducts />
       <h1></h1>
       <style jsx>{`
         h1 {
