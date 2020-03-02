@@ -1,0 +1,39 @@
+.background {
+  width: 60%;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+/* ------------------- Responsive Design Below ------------------- */
+
+
+
+@media only screen and (max-width: 1800px) {
+  .background {
+    width: 70%;
+  }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .background {
+    width: 80%;
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .background {
+    width: 90%;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .background {
+    width: 70%;
+  }
+}
