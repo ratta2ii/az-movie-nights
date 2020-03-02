@@ -12,36 +12,38 @@ export default function Nav() {
     e.preventDefault();
   }
 
-  let navCom = {
-    backgroundColor: 'black',
-    height: '100px'
-  };
-
-
   return (
-    <div style={navCom}>
+    <div className={styles.navComponent}>
 
-      <img className={styles.hamburgerIcon} src={hamburger} onClick={handleDisplaySideNavBar} />
+      <img id={styles.hamburgerIcon} src={hamburger} onClick={handleDisplaySideNavBar} />
 
       <nav className={styles.sidebarContainer} >
         <ul className={styles.ulTag}>
-          <li><a className={styles.anchorTag} href="#">Home</a></li>
-          <li><a className={styles.anchorTag} href="#">About me</a></li>
-          <li><a className={styles.anchorTag} href="#">Portfolio</a></li>
-          <li><a className={styles.anchorTag} href="#">Contact</a></li>
+          <li><a className={styles.anchorTag} href="#">HOME</a></li>
+          <li><a className={styles.anchorTag} href="#">PRODUCTS</a></li>
+          <li><a className={styles.anchorTag} href="#">IMAGES</a></li>
+          <li><a className={styles.anchorTag} href="#">FAQ</a></li>
+          <li><a className={styles.anchorTag} href="#">CONTACT</a></li>
         </ul>
       </nav>
 
 
       <nav className={styles.navbarContainer}>
         <ul className={styles.ulTag2} >
-          <Link to="/"><li className={styles.homeLink} >Home</li></Link>
-          <Link to="/"><li className={styles.listElements} >Products</li></Link>
+          <Link to="/"><li className={styles.homeLink} >HOME</li></Link>
+          <Link to="/"><li className={styles.listElements} >PRODUCTS</li></Link>
+          <Link to="/"><li className={styles.listElements} >IMAGES</li></Link>
           <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
-          <Link to="/"><li className={styles.listElements} >Admin</li></Link>
+          <Link to="/"><li className={styles.listElements} >CONTACT</li></Link>
         </ul>
       </nav>
-      <style global jsx>{`
+      <div className={styles.contactContainer}>
+        <Link to="/images">
+          <h5 className={styles.contactInfo}>Email: example@example.com</h5>
+        </Link> 
+        <h5 className={styles.contactInfo}>Phone: (555) 555-5555</h5>
+      </div>
+      <style jsx>{`
          .active {
           position: absolute;
           display: block;

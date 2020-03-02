@@ -1,22 +1,13 @@
 
 /* Nav Bar */
 .navComponent {
-  background-color: white;
-  position: fixed;
-  width: 100%;
-  margin: 0px;
-  top: 0px;
-  left: 0px;
+  background-color: rgba(0,0,0,.6);
+  height: 100px;
 }
 
 
 .navbarContainer {
   display: none;
-}
-
-
-.nav {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -48,33 +39,44 @@
 
 .listElements {
   float: left;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff9e6;
   border: 3px solid #1874df;
   list-style-type: none;
-  padding: 12px;
-  margin: 25px -2px;
+  padding: 10px;
+  margin: 50px -2px;
   letter-spacing: 1px;
 }
 
 
 .homeLink {
   float: left;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   border: 3px solid #1874df;
   list-style-type: none;
   color: #ffb120;
   font-weight: bold;
-  padding: 12px;
-  margin: 25px -2px 25px 50px;
+  padding: 10px;
+  margin: 50px -2px 25px 50px;
+}
+
+.contactContainer {
+  float: right;
+  color: white;
+  margin: 25px 30px;
+}
+
+.contactInfo {
+  font-size: 16px;
+  margin: 10px 0px;
 }
 
 
-.hamburgerIcon {
+#hamburgerIcon {
   width: 40px;
-  cursor: pointer;    /*puts a hand on the item you are mousing over*/
+  cursor: pointer;  
   float: right;
   margin-top: 35px;
   margin-right: 0px;
@@ -84,17 +86,22 @@
 }
 
 
+/* To activate sidebar */
+/* .active in Nav.jsx */
+
 
 
 
 /* ------------ Media Queries for responsive design below ----------------- */
 
 @media only screen and (min-width: 800px) {
-
+  .navComponent {
+    height: 150px;
+  }
   .navBody {
     display: unset;
   }
-  .hamburgerIcon {
+  #hamburgerIcon {
     display: none;
   }
   .navbarContainer {
