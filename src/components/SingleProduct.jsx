@@ -7,7 +7,9 @@ import styles from './SingleProduct.css';
 function SingleProduct(props) {
 
   function handleSavingSelectedProduct(product) {
+    console.log("Below is the SingleProduct.jsx (handleSavingSelectedProduct)");
     console.log(product);
+   
   }
 
   return (

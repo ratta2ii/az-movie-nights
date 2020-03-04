@@ -1,3 +1,8 @@
 import * as types from './ActionTypes';
+import { masterProductList } from './MasterProductList';
 
-export default types;
+
+export default {
+  masterProductList: masterProductList,
+  types: types
+};
