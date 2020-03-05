@@ -2,24 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import soundImage from '../assets/images/sound.jpg';
 import styles from './SingleProduct.css';
+import c from './../constants';
+import { connect } from 'react-redux';
 
 
 function SingleProduct(props) {
 
-  function handleSavingSelectedProduct(product) {
-    console.log("Below is the SingleProduct.jsx (handleSavingSelectedProduct)");
-    console.log(product);
-   
+  function handleSavingSelectedProduct(productId) {
+
+    const { dispatch } = props;
+    const action = {
+      type: 'SELECT_PRODUCT',
+      productId: productId
+    };
+    dispatch(action);
   }
 
   return (
     <div onClick={() => {
-      handleSavingSelectedProduct({
-        title: props.title,
-        productId: props.productId,
-        key: props.key,
-        id: props
-      });
+      handleSavingSelectedProduct(props.productId);
     }}>
       <li className={styles.productListElems}>
         <div className={styles.titleStyling}>{props.title}</div>
@@ -31,24 +32,10 @@ function SingleProduct(props) {
 
 
 SingleProduct.propTypes = {
-  title: PropTypes.string,
-  productId: PropTypes.string
-  // location: PropTypes.string.isRequired,
-  // currentRouterPath: PropTypes.string,
+  productId: PropTypes.string,
+  dispatch: PropTypes.func,
+  title: PropTypes.title
 };
 
-export default SingleProduct;
+export default connect()(SingleProduct);
 
-
-
-
-// bring in image through propery (Currently hard coded)
-
-// return (
-//   <div onClick={() => { handleSavingSelectedProduct(props.productId); }}>
-//     <li className={styles.productListElems}>
-//       <div className={styles.title}>{props.title}</div>
-//       <img src={soundImage} />
-//     </li>
-//   </div>
-// );

@@ -1,10 +1,13 @@
 // ------------ You will put your combined reducers here --------------
 
-import ticketListReducer from './ticket-list-reducer';
+import productListReducer from './product-list-reducer';
+import selectedProductReducer from './selected-product-reducer';
 import { combineReducers } from 'redux';
 
+
 const rootReducer = combineReducers({
-  masterTicketList: ticketListReducer
+  masterProductList: productListReducer,
+  selectedProduct: selectedProductReducer
 });
 
 export default rootReducer;

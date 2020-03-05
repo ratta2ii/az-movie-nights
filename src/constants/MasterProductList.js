@@ -1,3 +1,4 @@
 import { v4 } from 'uuid';
 
-export const masterProductList = [{ title: 'Complete Package', id: v4(), productId: '1001' }, { title: 'Generators', id: v4(), productId: '1002' }, { title: 'Sound Equipment', id: v4(), productId: '1003' }, { title: 'Sound Equipment', id: v4(), productId: '1004' }, { title: 'Sound Equipment', id: v4(), productId: '1005' }, { title: 'Sound Equipment', id: v4(), productId: '1006' }, { title: 'Sound Equipment', id: v4(), productId: '1007' }, { title: 'Sound Equipment', id: v4(), productId: '1008' }, { title: 'Sound Equipment', id: v4(), productId: '1009' }];
+export const masterProductList = [{ title: 'Complete Package', id: v4(), productId: '0' }, { title: 'Generators', id: v4(), productId: '1' }, { title: 'Sound Equipment', id: v4(), productId: '2' }, { title: 'Sound Equipment', id: v4(), productId: '3' }, { title: 'Sound Equipment', id: v4(), productId: '4' }, { title: 'Sound Equipment', id: v4(), productId: '5' }, { title: 'Sound Equipment', id: v4(), productId: '6' }, { title: 'Sound Equipment', id: v4(), productId: '7' }, { title: 'Sound Equipment', id: v4(), productId: '8' }];
+

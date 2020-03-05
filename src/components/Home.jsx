@@ -4,6 +4,7 @@ import Header from './Header';
 import AllProducts from './AllProducts';
 import Nav from './Nav';
 import bgImage from '../assets/images/bg1.jpg';
+import Modal from './Modal';
 
 
 function Home() {
@@ -22,8 +23,9 @@ function Home() {
   return (
     <div style={background}>
       <Nav />
+      <Modal />
       <Header />
-      <Screens />
+      {/* <Screens /> */}
       <h1></h1>
       <AllProducts />
       <h1></h1>
