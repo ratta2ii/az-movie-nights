@@ -9,21 +9,19 @@ import Modal from './Modal';
 
 function Home() {
 
-  var background = {
-    backgroundImage: `url(${bgImage})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: '100% 100%',
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    overflow: 'scroll',
-    overflowX: 'hidden'
-  };
+  // var background = {
+  //   backgroundImage: `url(${bgImage})`,
+  //   backgroundRepeat: 'no-repeat',
+  //   backgroundSize: '100% 100%',
+  //   width: '100%',
+  //   height: '100%',
+  //   position: 'absolute',
+  //   overflow: 'scroll',
+  //   overflowX: 'hidden'
+  // };
 
   return (
-    <div style={background}>
-      <Nav />
-      <Modal />
+    <div>
       <Header />
       {/* <Screens /> */}
       <h1></h1>
