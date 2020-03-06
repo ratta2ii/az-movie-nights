@@ -38,7 +38,7 @@ export default function Nav() {
         </ul>
       </nav>
       <div className={styles.contactContainer}>
-        <Link to="/images">
+        <Link to="/">
           <h5 className={styles.contactInfo}>Email: example@example.com</h5>
         </Link> 
         <h5 className={styles.contactInfo}>Phone: (555) 555-5555</h5>

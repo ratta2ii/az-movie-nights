@@ -1,0 +1,45 @@
+/* modalContainer {
+  I am inside the Modal.jsx as a style object 
+} */
+
+.modalComponent {
+  background-color: rgba(255, 166, 0, 0.8);
+  padding: 0;
+}
+
+.modalContainer {
+   background-color: blue;
+   padding: 20px; 
+}
+
+.modalImageDiv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.modalImage {
+  width: 100%;
+}
+
+.productTitle {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.productDescription {
+  font-size: 16px;
+}
+
+
+.productId {
+  font-size: 12px;
+}
+
+.productPrice {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+

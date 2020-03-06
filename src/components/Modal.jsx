@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-
+import styles from './Modal.css';
+// import IncludedListItem from './IncludedListItem';
 // Reminder that masterProductList will be static(?), so this can be removed as a 
 // state slice, and imported in as a constant (import c from './../constants';)
 
@@ -9,37 +10,43 @@ import PropTypes from 'prop-types';
 
 function Modal(props) {
 
-  let optionalContent = null;
-
-  let background = {
-    backgroundColor: '#ffafaf'
-  };
+  let productContent = null;
 
   let currentProductId = props.selectedProduct.productId;
   let productList = props.masterProductList;
 
   productList.forEach(ele => {
     if (ele.productId == currentProductId) {
-      optionalContent =
-        <div style={background}>
-          <h1>I am the Header Component!</h1>
-          <h1>I am the product Title: {ele.title}</h1>
-          <h1>I am the product Id: {ele.productId}</h1>
+      productContent =
+        <div>
+          <div className={styles.modalImageDiv}>
+            <img className={styles.modalImage} src={ele.mainImage} />
+          </div>
+
+          <h1 className={styles.productTitle}>{ele.title}</h1>
+          <p className={styles.productDescription}>{ele.description}</p>
+          <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
+          <h5 className={styles.productPrice}>{ele.price}</h5>
         </div>;
     }
   });
 
   if (productList.length > 1) {
     return (
-      <div>
-        {optionalContent}
+      <div className={styles.modalComponent}>
+        <div className={styles.modalContainer}>
+          {productContent}
+        </div>
       </div>
+
     );
   } else {
     return (
-      <div style={background}>
-        <h1>I am the Header Component!</h1>
-        <h1>I am the wrong one!</h1>
+      <div>
+        <div>
+          <h1>I am the Header Component!</h1>
+          <h1>I am the wrong one!</h1>
+        </div>
       </div>
     );
   }
@@ -58,6 +65,9 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps)(Modal);
+
+
+
 
 
 

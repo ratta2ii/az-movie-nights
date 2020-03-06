@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import soundImage from '../assets/images/sound.jpg';
 import styles from './SingleProduct.css';
-import c from './../constants';
+import { Link } from 'react-router-dom';
+// import c from './../constants';
 import { connect } from 'react-redux';
 
 
@@ -19,14 +20,19 @@ function SingleProduct(props) {
   }
 
   return (
-    <div onClick={() => {
-      handleSavingSelectedProduct(props.productId);
-    }}>
-      <li className={styles.productListElems}>
-        <div className={styles.titleStyling}>{props.title}</div>
-        <img className={styles.productBoxImage} src={soundImage} />
-      </li>
+    <div>
+      <Link to='/modal'>
+        <div onClick={() => {
+          handleSavingSelectedProduct(props.productId);
+        }}>
+          <li className={styles.productListElems}>
+            <div className={styles.titleStyling}>{props.title}</div>
+            <img className={styles.productBoxImage} src={soundImage} />
+          </li>
+        </div>
+      </Link>
     </div>
+
   );
 }
 
@@ -34,7 +40,7 @@ function SingleProduct(props) {
 SingleProduct.propTypes = {
   productId: PropTypes.string,
   dispatch: PropTypes.func,
-  title: PropTypes.title
+  title: PropTypes.string
 };
 
 export default connect()(SingleProduct);
