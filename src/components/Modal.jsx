@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styles from './Modal.css';
-// import IncludedListItem from './IncludedListItem';
 // Reminder that masterProductList will be static(?), so this can be removed as a 
 // state slice, and imported in as a constant (import c from './../constants';)
 
@@ -22,11 +21,12 @@ function Modal(props) {
           <div className={styles.modalImageDiv}>
             <img className={styles.modalImage} src={ele.mainImage} />
           </div>
-
-          <h1 className={styles.productTitle}>{ele.title}</h1>
-          <p className={styles.productDescription}>{ele.description}</p>
-          <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
-          <h5 className={styles.productPrice}>{ele.price}</h5>
+          <div>
+            <h1 className={styles.productTitle}>{ele.title}</h1>
+            <p className={styles.productDescription}>{ele.description}</p>
+            <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
+            <h5 className={styles.productPrice}>$ {ele.price}</h5>
+          </div>
         </div>;
     }
   });
@@ -65,6 +65,8 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps)(Modal);
+
+
 
 
 
