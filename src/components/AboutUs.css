@@ -1,5 +1,5 @@
 .aboutComponent {
-  background-color: rgba(13, 14, 29, 0.8);
+  background-color: rgba(13, 14, 29, 1);
 }
 
 .row {
@@ -149,7 +149,7 @@
   .rightColumn {
     float: left;
     width: 45%;
-    padding: 60px 90px 100px 0px;
+    padding: 20px 90px 100px 0px;
     margin: 0;
   }
 
@@ -179,6 +179,11 @@
 
 @media screen and (min-width:1100px) {
 
+  .row {
+    height: 650px;
+    padding-top: 80px;  
+  }
+
   .left-column {
     padding: 50px 80px;
   }
@@ -201,13 +206,8 @@
 } 
 
 
-
 @media screen and (min-width: 1300px) {
-  .row {
-    height: 650px;
-    padding-top: 80px;  
-  }
-
+ 
   .aboutUsHeader {
     font-size:60px;
     margin-bottom: 20px;
@@ -217,5 +217,5 @@
    font-size: 20px;
  }
  
-}
+} 
 
