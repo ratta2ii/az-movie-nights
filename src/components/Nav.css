@@ -63,19 +63,18 @@
 }
 
 .contactContainer {
-  float: right;
-  color: white;
-  margin: 25px 30px;
+  display: none;
 }
 
 .contactInfo {
+  color: #7ddfff;
   font-size: 16px;
-  margin: 10px 0px;
+  margin: 10px 0px 0px 20px;
 }
 
 
 #hamburgerIcon {
-  width: 40px;
+  width: 35px;
   cursor: pointer;  
   float: right;
   margin-top: 35px;
@@ -89,7 +88,13 @@
 /* To activate sidebar */
 /* .active in Nav.jsx */
 
-
+@media screen and (min-width: 400px) {
+  /* .contactContainer {
+    display: contents;
+    float: left;
+    color: white;
+  } */
+}
 
 
 /* ------------ Media Queries for responsive design below ----------------- */
@@ -107,5 +112,11 @@
   .navbarContainer {
     display: unset;
   }
+
+  /* .contactContainer {
+    float: right;
+    color: white;
+    margin: 10px 35px;
+  } */
 
 }
