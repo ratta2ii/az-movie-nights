@@ -1,6 +1,9 @@
+.headerComponent {
+  background-color: rgba(170, 174, 245, 0.3);
+}
+
 .titleArea {
   width: 100%;
-  background-color: rgba(170, 174, 245, 0.3);
   padding: 50px 20px;;
 }
 
@@ -127,7 +130,7 @@ that each of the last selecters remains the same from here on out.
   .titleArea {
     width: 1400px;
     margin: 0 auto;
-    height: 650px; 
+    max-height: 850px; 
   }
 
 }
