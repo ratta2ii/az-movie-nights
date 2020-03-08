@@ -6,7 +6,7 @@ import Error404 from './Error404';
 import Home from './Home';
 import Modal from './Modal';
 import Nav from './Nav';
-import bgImage from '../assets/images/bg1.jpg';
+import bgImage from '../assets/images/bg11.jpg';
 // import AllProducts from './AllProducts';
 // import c from './../constants';
 // import Moment from 'moment';
