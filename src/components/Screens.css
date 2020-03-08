@@ -1,0 +1,274 @@
+.screensComponent {
+  /* background-color:#2f2f30; */
+  background-color:#1F2155;
+  background-color: rgb(55, 57, 83, .9);
+  margin: 0;
+  padding: 0;
+}
+
+
+.screensGridContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 0 10%;
+  letter-spacing: 1px;
+} 
+
+
+.screensImageContainer { 
+  grid-area: screensImageContainer; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+
+.screensInfoContainer { 
+  grid-area: screensInfoContainer;
+  width: 100%;
+  font-size: 14px;
+
+}
+
+
+.screensImageStyling {
+  width: 100%;
+  margin-top: 30px;
+  background-color: aliceblue;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.screensHeader {
+  width: 100%;
+  font-size: 20px;
+  font-family: none;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 2px solid #0068ff;
+  margin: 0px auto 25px;
+  color: #ffaa00;
+}
+
+.screenDescription  {
+  margin: 10px 0;
+  font-size: 14px;
+  /* color: #dcdcdc; */
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.screenSizeTitle {
+  color:#b99e9e;
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.dimensionsList {
+  font-size: 12px;
+  margin: 0 0 0px 13%;
+}
+
+.dimensionsListElements {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:500px) {
+
+  .screensImageContainer { 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  
+  
+  .screensInfoContainer { 
+    padding: 0 20px 35px;
+  }
+  
+  .screensImageStyling {
+    padding: 20px;
+  }  
+
+  .screensHeader {
+    font-size: 29px;
+    padding: 15px 15px 30px;
+    margin: 0px auto 25px;
+  }
+  
+  .screenDescription  {
+    font-size: 18px;
+  }
+  
+  .screenSizeTitle {
+    font-size: 22px;
+    padding: 10px;
+  }
+  
+}
+
+
+
+
+@media screen and (min-width:700px) {
+
+  .screensImageContainer { 
+    padding-top: 70px;
+  }
+  
+
+  .screensHeader {
+    font-size: 40px;
+  }
+  
+  .screenDescription  {
+    font-size: 20px;
+  }
+  
+  .screenSizeTitle {
+    font-size: 25px;
+  }
+
+  .dimensionsList {
+    margin: 0 0 10px 10%;
+  }
+
+  .dimensionsListElements {
+    font-size: 14px;
+  }
+
+}
+
+
+
+@media screen and (min-width:900px) {
+
+
+  .screensImageContainer { 
+    padding: 110px 50px 50px;
+
+  }
+
+  .screensInfoContainer { 
+    padding: 0 55px 35px;
+  }
+
+  .screensHeader {
+     padding: 30px;
+     width: 80%;
+     margin: 0 auto 30px;
+  }
+
+}
+
+
+/* ----------- This is the breakpoint to move into 2 columns ------------ */
+
+@media screen and (min-width:1023px) {
+
+  .screensGridContainer {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "screensInfoContainer screensImageContainer";
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .screensComponent {
+    padding: 0;
+    margin: 0;
+  }
+
+  .screensImageContainer {
+    margin: 0px;
+    padding: 95px 0px 70px 30px;
+  }
+
+  .screensInfoContainer {
+    margin: 0px;
+    padding: 75px;
+  }
+
+  .screensHeader {
+    font-family: ;
+    width: 100%;
+    font-size: 40px;
+    padding: 15px;
+    margin: 0px auto 20px;
+  }
+  
+  .screensImageStyling {
+    padding: 20px;
+  }  
+
+  .screensImageStyling {
+    padding: 10px;
+  }  
+
+}
+
+
+@media screen and (min-width:1300px) {
+
+  .screensGridContainer {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "screensInfoContainer screensImageContainer";
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .screensComponent {
+    padding: 75px 0;
+  }
+
+  .screensImageContainer {
+    margin: 0px;
+    padding: 95px 0px 70px 30px;
+  }
+
+  .screensInfoContainer {
+    margin: 0px;
+    padding: 75px;
+  }
+
+
+  .screensHeader {
+    width: 100%;
+    font-size: 40px;
+    padding: 15px;
+    margin: 0px auto 20px;
+  }
+  
+
+  .screensImageStyling {
+    padding: 20px;
+  }  
+
+  .screensImageStyling {
+    padding: 10px;
+  }  
+
+}
+ 
+ 
