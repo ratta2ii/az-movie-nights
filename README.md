@@ -1,7 +1,7 @@
 # **AZ Movies Nights**
 
 
-###### By Trevor Mackin 03/01/2020  
+###### By Trevor Mackin 02/28/2020  
 
 
 <center>
@@ -68,10 +68,12 @@ _The reason for the unorthodox checkout, and the reason for a wish list instead 
 * Webpack
 
 
-# **Rough Draft Proposal** (Note: Not a business proposal)
+# **Rough Draft Proposal**
+ (Note: Not a business proposal)
 
 
-##### AZ Movie Nights
+
+#### AZ Movie Nights
 
 
 This site will function as main webpage for a small business owner who runs an outdoor movie theatre rental company. The site will provide a list of products, and a way for a user to reserve the products for their next outdoor event.
@@ -116,4 +118,4 @@ This site will function as main webpage for a small business owner who runs an o
 
 ## **License**
 
-Copyright (c) 2019 **MIT**
+Copyright (c) 2020 **MIT**
