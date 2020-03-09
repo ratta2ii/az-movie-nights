@@ -52,7 +52,7 @@ _The reason for the unorthodox checkout, and the reason for a wish list instead 
 
 <center>
 
-![Image of Paths](src/assets/images/az-movies-structure.png)
+![Image of Paths](src/assets/images/component-structure.png)
 
 </center>
 
