@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './AboutUs.css';
-import giantScreen from '../assets/images/giant-screen.jpg';
+import giantScreen from './../../assets/images/giant-screen.jpg';
 
 
 function AboutUs() {

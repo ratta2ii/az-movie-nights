@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Nav.css';
-import hamburger from '../assets/images/hamburger-edit.png';
+import styles from './Navbar.css';
+import hamburger from './../../assets/images/hamburger-edit.png';
 
 
 export default function Nav() {
@@ -47,7 +47,7 @@ export default function Nav() {
          .active {
           position: absolute;
           display: block;
-          background: #fab759;
+          background: #FAC04D;
           width: 40%;
           left: 0;
           top: 0;

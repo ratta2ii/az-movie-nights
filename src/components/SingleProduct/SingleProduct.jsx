@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import soundImage from '../assets/images/sound.jpg';
-import styles from './SingleProduct.css';
-import { Link } from 'react-router-dom';
-// import c from './../constants';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import soundImage from './../../assets/images/sound.jpg';
+import styles from './SingleProduct.css';
+// import c from './../../constants';
+
 
 
 function SingleProduct(props) {
@@ -21,7 +22,7 @@ function SingleProduct(props) {
 
   return (
     <div>
-      <Link to='/modal'>
+      <Link to='/productdetails'>
         <div onClick={() => {
           handleSavingSelectedProduct(props.productId);
         }}>

@@ -68,6 +68,11 @@
   .imgStyling {
     margin: 70px auto 0px auto;
     padding: 20px;
+    transition: 0.4s;
+  }
+  
+  .imgStyling:hover {
+    transform: scale(1.2);
   }
 
   .aboutUsHeader {

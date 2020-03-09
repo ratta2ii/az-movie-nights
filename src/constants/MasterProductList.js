@@ -12,7 +12,7 @@ export const masterProductList = [{
   size: 'Actual Size: 23\'W X 16\'H X 15"L',
   description: 'Bring the BIG screen to your backyard or outdoor party! Entertain your guests at your next outdoor party with a movie or presentation. Our huge outdoor inflatable movie screens will be the "WOW" factor at any event!',
   ideas: 'Outdoor Movie Screen Party Ideas: Backyard Movie, Super Bowl Party, Video Game Tournament, Dance Party, PowerPoint presentations, Outdoor Fundraisers, Poolside Movie, Block Party, Drive In Movie, Corporate Events, Holiday Events, Premiere Events, Outdoor Grad Nights, Movie in the Park, Dive In Movie.',
-  included: ['Inflatable Screen', 'Concert Grade Mackie or QSC 12\' High Powered Speakers', '3600-4600 lumen Projector', 'Blu Ray DVD Player', 'Set up and Tear Down of all rented equipment', 'Viewable Screen Dimensions 16\'W X 9\'H  (actual dimensions 23\'W X 16\'H X 15\"L)', 'Professional Staff for your event']
+  included: ['Inflatable Screen', 'Concert Grade Mackie or QSC 12\' High Powered Speakers', '3600-4600 lumen Projector', 'Blu Ray DVD Player', 'Set up and Tear Down of all rented equipment', 'Viewable Screen Dimensions 16\'W X 9\'H  (actual dimensions 23\'W X 16\'H X 15"L)', 'Professional Staff for your event']
 },
 {
   title: 'Sound Equipment',

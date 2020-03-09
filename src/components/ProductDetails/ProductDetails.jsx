@@ -1,9 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import styles from './Modal.css';
+import styles from './ProductDetails.css';
+
 // Reminder that masterProductList will be static(?), so this can be removed as a 
-// state slice, and imported in as a constant (import c from './../constants';)
+// state slice, and imported in as a constant (import c from './../../constants';)
 
 
 

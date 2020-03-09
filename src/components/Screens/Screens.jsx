@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Screens.css';
-import screensImage from '../assets/images/screens.jpg';
+import screensImage from './../../assets/images/screens.jpg';
 
 
 function Screens() {

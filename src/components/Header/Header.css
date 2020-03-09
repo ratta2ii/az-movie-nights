@@ -1,4 +1,12 @@
 .headerComponent {
+  background-image: url('./../../assets/images/bg11.jpg');
+  background-repeat: no-repeat;
+}
+
+/* The background image is in the App component at this time. I used this for width
+under 640px. Note to fix. The corresponding selector is the 640px media query. */
+
+.headerBackgroundImage {
   background-color: rgba(170, 174, 245, 0.3);
 }
 
@@ -67,6 +75,11 @@
 
 
 @media only screen and (min-width: 640px) {
+
+  .headerComponent {
+    background-image: none;
+  }
+
   .titleArea {
     padding: 150px 30px;
   }
@@ -121,7 +134,7 @@
 
 /* 
 Note: Sizing the container at width can help you avoid responsive styling for 
-all higherresolutions. Note that title area below has a set width now, and 
+all higher resolutions. Note that title area below has a set width now, and 
 that each of the last selecters remains the same from here on out. 
 */
 

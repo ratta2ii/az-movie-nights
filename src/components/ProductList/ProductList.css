@@ -1,7 +1,12 @@
+#productListComponent {
+  background-color: rgba(13, 14, 29, 1);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .background {
   width: 60%;
   margin: 0 auto;
-  background-color: blue;
 }
 
 /* ------------------- Responsive Design Below ------------------- */
@@ -15,7 +20,6 @@
 }
 
 
-
 @media only screen and (max-width: 1200px) {
   .background {
     width: 80%;
@@ -23,13 +27,11 @@
 }
 
 
-
 @media only screen and (max-width: 800px) {
   .background {
     width: 90%;
   }
 }
-
 
 
 @media only screen and (max-width: 600px) {

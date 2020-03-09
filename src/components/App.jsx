@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Error404 from './Error404';
 import Home from './Home';
-import Modal from './Modal';
-import Nav from './Nav';
+import ProductDetails from './ProductDetails/ProductDetails';
+import Navbar from './Navbar/Navbar';
 import bgImage from '../assets/images/bg11.jpg';
 // import AllProducts from './AllProducts';
 // import c from './../constants';
@@ -19,11 +19,11 @@ function App() {
 
   return (
     <div style={background}>
-      <Nav />
+      <Navbar />
       <Switch>
         <Route exact path='/' render={() => <Home />} />
 
-        <Route path='/modal' render={() => <Modal />} />
+        <Route path='/productdetails' render={() => <ProductDetails />} />
 
         {/* <Route path='/productlist' render={() => <ProductList
           listOfTickets={this.props.masterTicketList} />} /> */}

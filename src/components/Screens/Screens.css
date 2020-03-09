@@ -101,7 +101,12 @@
   
   .screensImageStyling {
     padding: 20px;
-  }  
+    transition: 0.4s;
+  } 
+ 
+  .screensImageStyling:hover {
+    transform: scale(1.2);
+  }
 
   .screensHeader {
     font-size: 29px;
