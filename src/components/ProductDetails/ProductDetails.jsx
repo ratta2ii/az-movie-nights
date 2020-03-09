@@ -11,8 +11,6 @@ import styles from './ProductDetails.css';
 function ProductDetails(props) {
 
   function handleAddToWishList(props) {
-    console.log("I am the props");
-    console.log(props);
     let arrPosition = props.selectedProduct.productId;
     let parsed = parseInt(arrPosition);
     let product = props.productList[parsed];
@@ -41,7 +39,7 @@ function ProductDetails(props) {
             <p className={styles.productDescription}>{ele.description}</p>
             <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
             <h5 className={styles.productPrice}>$ {ele.price}</h5>
-            <button onClick={handleAddToWishList(props)} >Add To WishList</button>
+           
           </div>
         </div>;
     }
@@ -52,6 +50,7 @@ function ProductDetails(props) {
       <div className={styles.modalComponent}>
         <div className={styles.modalContainer}>
           {productContent}
+          <button onClick={handleAddToWishList(props)} >Add To WishList</button>
         </div>
       </div>
 
@@ -161,6 +160,19 @@ export default connect(mapStateToProps)(ProductDetails);
 
 
 
+// function handleAddToWishList(props) {
+//   console.log("I am the props");
+//   console.log(props);
+//   let arrPosition = props.selectedProduct.productId;
+//   let parsed = parseInt(arrPosition);
+//   let product = props.productList[parsed];
+//   const { dispatch } = props;
+//   const action = {
+//     type: 'ADD_PRODUCT',
+//     product
+//   };
+//   dispatch(action);
+// }
 
 
 
