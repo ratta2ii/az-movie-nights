@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.css';
 import hamburger from './../../assets/images/hamburger-edit.png';
+import logo from './../../assets/images/logo.png';
+import facebookIcon from './../../assets/images/facebook-icon.png';
+import twitterIcon from './../../assets/images/twitter-icon.png';
 
 
 export default function Nav() {
@@ -36,6 +39,9 @@ export default function Nav() {
           <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
           <Link to="/"><li className={styles.listElements} >CONTACT</li></Link>
         </ul>
+        <img src={logo} id={styles.companyLogo} />
+        {/* <img src={facebookIcon} id={styles.facebookIcon} />
+        <img src={twitterIcon} id={styles.twitterIcon} /> */}
       </nav>
       <div className={styles.contactContainer}>
         <Link to="/">
