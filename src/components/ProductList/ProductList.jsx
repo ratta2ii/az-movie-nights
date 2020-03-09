@@ -16,6 +16,7 @@ function ProductList(props) {
               SingleProduct
               title={product.title}
               productId={product.productId}
+              description={product.description}
               id={product.id}
               key={product.key} />
           )}
@@ -34,12 +35,6 @@ ProductList.proptypes = {
 export default ProductList;
 
 
-
-// SingleProduct
-// title={product.title}
-// productId={product.productId}
-// id={product.id}
-// key={product.id}
 
 
 

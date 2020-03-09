@@ -7,6 +7,7 @@ export const masterProductList = [{
   title: 'Giant Screen Package',
   id: v4(),
   productId: '0',
+  key: 0,
   price: '695',
   mainImage: giantScreenImage,
   size: 'Actual Size: 23\'W X 16\'H X 15"L',
@@ -20,6 +21,7 @@ export const masterProductList = [{
   productId: '1',
   price: '149',
   mainImage: soundImage,
+  key: 1,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -28,6 +30,7 @@ export const masterProductList = [{
   productId: '2',
   price: '499',
   mainImage: screensImage,
+  key: 2,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -36,6 +39,7 @@ export const masterProductList = [{
   productId: '3',
   price: '499',
   mainImage: screensImage,
+  key: 3,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -44,6 +48,7 @@ export const masterProductList = [{
   productId: '4',
   price: '149',
   mainImage: soundImage,
+  key: 4,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -52,6 +57,7 @@ export const masterProductList = [{
   productId: '5',
   price: '499',
   mainImage: screensImage,
+  key: 5,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -60,6 +66,7 @@ export const masterProductList = [{
   productId: '6',
   price: '499',
   mainImage: screensImage,
+  key: 6,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -68,6 +75,7 @@ export const masterProductList = [{
   productId: '7',
   price: '149',
   mainImage: soundImage,
+  key: 7,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 },
 {
@@ -76,6 +84,7 @@ export const masterProductList = [{
   productId: '8',
   price: '499',
   mainImage: screensImage,
+  key: 8,
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
 }];
 

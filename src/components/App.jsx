@@ -29,7 +29,8 @@ class App extends React.Component {
 
           <Route path='/productdetails' render={() => <ProductDetails 
             productList={this.props.masterProductList}
-            selectedProduct={this.props.selectedProduct} />} />
+            selectedProduct={this.props.selectedProduct} 
+            wishList={this.props.wishList} />} />
 
           {/* <Route path='/productlist' render={() => <ProductList
           listOfProducts={this.props.masterProductList} />} /> */}
@@ -54,7 +55,8 @@ App.propTypes = {
 const mapStateToProps = state => {
   return {
     masterProductList: state.masterProductList,
-    selectedProduct: state.selectedProduct
+    selectedProduct: state.selectedProduct,
+    wishList: state.wishList
   };
 };
 
