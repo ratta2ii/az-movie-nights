@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styles from './ProductDetails.css';
 
+
 // Reminder that masterProductList will be static(?), so this can be removed as a 
 // state slice, and imported in as a constant (import c from './../../constants';)
 
@@ -11,6 +12,8 @@ import styles from './ProductDetails.css';
 function ProductDetails(props) {
 
   function handleAddToWishList(props) {
+    console.log("I am the wishList Increasing (ProductDetails)");
+    console.log(props);
     let arrPosition = props.selectedProduct.productId;
     let parsed = parseInt(arrPosition);
     let product = props.productList[parsed];
@@ -39,7 +42,9 @@ function ProductDetails(props) {
             <p className={styles.productDescription}>{ele.description}</p>
             <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
             <h5 className={styles.productPrice}>$ {ele.price}</h5>
-           
+            <div onClick={() => { handleAddToWishList(props); }}>
+              ADD TO WISHLIST
+            </div>
           </div>
         </div>;
     }
@@ -50,7 +55,7 @@ function ProductDetails(props) {
       <div className={styles.modalComponent}>
         <div className={styles.modalContainer}>
           {productContent}
-          <button onClick={handleAddToWishList(props)} >Add To WishList</button>
+
         </div>
       </div>
 
@@ -59,8 +64,8 @@ function ProductDetails(props) {
     return (
       <div>
         <div>
-          <h1>I am the Header Component!</h1>
-          <h1>I am the wrong one!</h1>
+          <h1>There is no information on this product.</h1>
+          <h1>I am the else statement in the ProductDetails</h1>
         </div>
       </div>
     );
@@ -76,106 +81,12 @@ ProductDetails.propTypes = {
 const mapStateToProps = state => {
   return {
     masterProductList: state.masterProductList,
-    selectedProduct: state.selectedProduct
+    selectedProduct: state.selectedProduct,
+    wishList: state.wishList
   };
 };
 
 export default connect(mapStateToProps)(ProductDetails);
-
-
-
-
-
-
-
-// import React from 'react';
-// import { connect } from 'react-redux';
-// import PropTypes from 'prop-types';
-// import styles from './ProductDetails.css';
-
-// // Reminder that masterProductList will be static(?), so this can be removed as a 
-// // state slice, and imported in as a constant (import c from './../../constants';)
-
-
-
-// function ProductDetails(props) {
-
-//   let productContent = null;
-
-//   let currentProductId = props.selectedProduct.productId;
-//   let productList = props.masterProductList;
-
-//   productList.forEach(ele => {
-//     if (ele.productId == currentProductId) {
-//       productContent =
-//         <div>
-//           <div className={styles.modalImageDiv}>
-//             <img className={styles.modalImage} src={ele.mainImage} />
-//           </div>
-//           <div>
-//             <h1 className={styles.productTitle}>{ele.title}</h1>
-//             <p className={styles.productDescription}>{ele.description}</p>
-//             <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
-//             <h5 className={styles.productPrice}>$ {ele.price}</h5>
-//           </div>
-//         </div>;
-//     }
-//   });
-
-//   if (productList.length > 1) {
-//     return (
-//       <div className={styles.modalComponent}>
-//         <div className={styles.modalContainer}>
-//           {productContent}
-//         </div>
-//       </div>
-
-//     );
-//   } else {
-//     return (
-//       <div>
-//         <div>
-//           <h1>I am the Header Component!</h1>
-//           <h1>I am the wrong one!</h1>
-//         </div>
-//       </div>
-//     );
-//   }
-
-// }
-
-// ProductDetails.propTypes = {
-//   selectedProduct: PropTypes.string
-// };
-
-// const mapStateToProps = state => {
-//   return {
-//     masterProductList: state.masterProductList,
-//     selectedProduct: state.selectedProduct
-//   };
-// };
-
-// export default connect(mapStateToProps)(ProductDetails);
-
-
-
-
-// function handleAddToWishList(props) {
-//   console.log("I am the props");
-//   console.log(props);
-//   let arrPosition = props.selectedProduct.productId;
-//   let parsed = parseInt(arrPosition);
-//   let product = props.productList[parsed];
-//   const { dispatch } = props;
-//   const action = {
-//     type: 'ADD_PRODUCT',
-//     product
-//   };
-//   dispatch(action);
-// }
-
-
-
 
 
 

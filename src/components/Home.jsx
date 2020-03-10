@@ -10,9 +10,6 @@ import Footer from'./Footer/Footer';
 
 function Home(props) {
 
-  console.log("I am the props in the Home Component");
-  console.log(props);
-
   return (
     <div>
       <WishList />

@@ -4,5 +4,5 @@ import { masterProductList } from './MasterProductList';
 
 export default {
   masterProductList: masterProductList,
-  types: types
+  types: types,
 };
