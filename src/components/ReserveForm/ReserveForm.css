@@ -1,0 +1,84 @@
+/* #reserveFormComponent {
+    background-color: #0c0d1d;
+    padding: 30px 200px;
+}
+     */
+  .reserveFormContainer {
+    width:  90%; 
+    max-width: 350px;
+    margin:  150px auto; 
+    padding: 20px;
+    font-size: 8px;
+    background-color:  #c7baba; 
+    border-radius:  3px; 
+    -webkit-box-shadow: 5px 5px 15px 9px rgb(15, 12, 12); 
+    box-shadow:  5px 5px 15px 9px rgb(15, 12, 12) 
+  }
+
+
+  .formLabel {
+    font-size:  20px; 
+    margin:  0 0 0 0; 
+
+  }
+  
+  .inputField {
+    border:  2px solid #9c9da0c4; 
+    width:  100%; 
+    height:  30px; 
+    margin:  0 0 15px 0; 
+    border-radius: 5px;
+    font-size:  12px; 
+
+  }
+  
+  .messageField {
+      width: 100%;
+      height: 200px;
+      border-radius: 5px;;
+  }
+
+  .submitButton {
+    width: 80%;
+    height: 40px;
+    margin: 35px 0 20px 10%;
+    font-size:  15px; 
+    background-color: #b14242;
+    border-radius:  1px; 
+    border: none;
+    webkit-box-shadow:  2px 2px 5px 3px rgb(15, 12, 12); 
+    box-shadow:  2px 2px 5px 3px rgb(15, 12, 12) 
+  }
+
+
+
+
+
+
+  @media screen and (min-width: 1023px) {
+        
+  .reserveFormContainer {
+    width:  100%; 
+    margin:  50px auto; 
+    padding: 20px;
+   }
+
+   .inputField {
+    border:  2px solid #9c9da0c4; 
+    height:  35px; 
+    margin:  0 0 15px 0; 
+    border-radius:  5px; 
+    font-size:  15px; 
+    padding: 5px;
+   }
+
+   .submitButton {
+    width: 80%;
+    height: 40px;
+    margin: 35px 0 20px 10%;
+    font-size:  15px; 
+    border-radius:  1px; 
+  }
+
+
+  }

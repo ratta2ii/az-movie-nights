@@ -7,13 +7,15 @@ import SingleProduct from './../SingleProduct/SingleProduct';
 
 function ProductList(props) {
 
+  // console.log("I am from ProductList props");
+  // console.log(props);
+
   return (
     <div id={styles.productListComponent}>
       <div className={styles.background}>
         <ul>
           {props.productList.map((product) =>
             <SingleProduct
-              SingleProduct
               title={product.title}
               productId={product.productId}
               description={product.description}

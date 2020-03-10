@@ -7,6 +7,8 @@ import Home from './Home';
 import ProductDetails from './ProductDetails/ProductDetails';
 import Navbar from './Navbar/Navbar';
 import WishList from './WishList/WishList';
+import ProductList from'./ProductList/ProductList';
+import ReserveForm from './ReserveForm/ReserveForm';
 import bgImage from '../assets/images/bg11.jpg';
 // import c from './../constants';
 // import Moment from 'moment';
@@ -33,7 +35,14 @@ class App extends React.Component {
             wishList={this.props.wishList} />} />
 
           <Route path='/wishlist' render={() => <WishList
-            currentRouterPath={this.props.location.pathname}/>} />
+            currentRouterPath={this.props.location.pathname} />} />
+
+          <Route path='/reserveform' render={() => <ReserveForm
+            currentRouterPath={this.props.location.pathname} />} />
+
+          <Route path='/productlist' render={() => <ProductList
+            productList={this.props.masterProductList} />} />
+
 
           <Route component={Error404} />
         </Switch>

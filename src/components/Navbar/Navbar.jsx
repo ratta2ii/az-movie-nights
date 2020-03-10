@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import styles from './Navbar.css';
 import hamburger from './../../assets/images/hamburger-edit.png';
 import logo from './../../assets/images/logo.png';
-import facebookIcon from './../../assets/images/facebook-icon.png';
-import twitterIcon from './../../assets/images/twitter-icon.png';
+// import facebookIcon from './../../assets/images/facebook-icon.png';
+// import twitterIcon from './../../assets/images/twitter-icon.png';
 
 
-export default function Nav() {
+
+export default function Navbar() {
 
   function handleDisplaySideNavBar(e) {
     var menu = document.querySelector('ul');
@@ -34,10 +35,10 @@ export default function Nav() {
       <nav className={styles.navbarContainer}>
         <ul className={styles.ulTag2} >
           <Link to="/"><li className={styles.homeLink} >HOME</li></Link>
-          <Link to="/"><li className={styles.listElements} >PRODUCTS</li></Link>
-          <Link to="/"><li className={styles.listElements} >IMAGES</li></Link>
+          <Link to="/productlist"><li className={styles.listElements} >PRODUCTS</li></Link>
           <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
-          <Link to="/wishlist"><li className={styles.listElements} >CONTACT</li></Link>
+          <Link to="/reserveform"><li className={styles.listElements} >RESERVATIONS</li></Link>
+          <Link to="/wishlist"><li className={styles.listElements} >WISHLIST</li></Link>
         </ul>
         <img src={logo} id={styles.companyLogo} />
         {/* <img src={facebookIcon} id={styles.facebookIcon} />
@@ -53,7 +54,7 @@ export default function Nav() {
          .active {
           position: absolute;
           display: block;
-          background: #FAC04D;
+          background: #23376b;;
           width: 40%;
           left: 0;
           top: 0;
