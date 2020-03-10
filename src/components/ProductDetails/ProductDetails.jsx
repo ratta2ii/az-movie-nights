@@ -8,12 +8,10 @@ import styles from './ProductDetails.css';
 // state slice, and imported in as a constant (import c from './../../constants';)
 
 
-
 function ProductDetails(props) {
 
+
   function handleAddToWishList(props) {
-    console.log("I am the wishList Increasing (ProductDetails)");
-    console.log(props);
     let arrPosition = props.selectedProduct.productId;
     let parsed = parseInt(arrPosition);
     let product = props.productList[parsed];

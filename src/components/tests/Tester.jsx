@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Header() {
+function Wish(props) {
 
   let background = {
     backgroundColor: '#ffafaf'
@@ -9,9 +9,10 @@ function Header() {
 
   return (
     <div style={background}>
-      <h1>I am the Header Component!</h1>
+      <h1>{props.title} | {props.price}</h1>
+  
     </div>
   );
 }
 
-export default Header;
+export default Wish;

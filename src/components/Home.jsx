@@ -12,10 +12,10 @@ function Home(props) {
 
   return (
     <div>
-      <WishList />
-      {/* <Header />
+      <Header />
       <AboutUs />
-      <Screens />  */}
+      <Screens /> 
+      <WishList />
       <ProductList productList={props.productList} />
       <style jsx>{` `}</style>
     </div>

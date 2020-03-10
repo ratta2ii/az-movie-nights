@@ -37,7 +37,7 @@ export default function Nav() {
           <Link to="/"><li className={styles.listElements} >PRODUCTS</li></Link>
           <Link to="/"><li className={styles.listElements} >IMAGES</li></Link>
           <Link to="/"><li className={styles.listElements} >FAQ</li></Link>
-          <Link to="/"><li className={styles.listElements} >CONTACT</li></Link>
+          <Link to="/wishlist"><li className={styles.listElements} >CONTACT</li></Link>
         </ul>
         <img src={logo} id={styles.companyLogo} />
         {/* <img src={facebookIcon} id={styles.facebookIcon} />
