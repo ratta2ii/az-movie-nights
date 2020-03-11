@@ -10,6 +10,9 @@ import styles from './SingleProduct.css';
 
 function SingleProduct(props) {
 
+  console.log("I am the singleproduct props");
+  console.log(props);
+
   function handleSavingSelectedProduct(productId) {
 
     const { dispatch } = props;
@@ -28,7 +31,7 @@ function SingleProduct(props) {
         }}>
           <li className={styles.productListElems}>
             <div className={styles.titleStyling}>{props.title}</div>
-            <img className={styles.productBoxImage} src={soundImage} />
+            <img className={styles.productBoxImage} src={props.mainImage} />
           </li>
         </div>
       </Link>
@@ -39,9 +42,10 @@ function SingleProduct(props) {
 
 
 SingleProduct.propTypes = {
+  title: PropTypes.string,
   productId: PropTypes.string,
-  dispatch: PropTypes.func,
-  title: PropTypes.string
+  mainImage: PropTypes.string,
+  dispatch: PropTypes.func
 };
 
 export default connect()(SingleProduct);
