@@ -49,3 +49,8 @@ function Screens() {
 }
 
 export default Screens;
+
+// #0C2333
+// 3376BC
+// 91BBE5
+// F4A82C

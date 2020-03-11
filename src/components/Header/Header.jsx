@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './Header.css';
+import bgImage from './../../assets/images/bg1.jpg';
+
 
 
 export default function Header() {

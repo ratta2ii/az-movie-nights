@@ -9,7 +9,7 @@ import Navbar from './Navbar/Navbar';
 import WishList from './WishList/WishList';
 import ProductList from'./ProductList/ProductList';
 import ReserveForm from './ReserveForm/ReserveForm';
-import bgImage from '../assets/images/bg11.jpg';
+import bgImage from '../assets/images/bg1.jpg';
 // import c from './../constants';
 // import Moment from 'moment';
 // import { v4 } from 'uuid';
@@ -78,7 +78,11 @@ export default withRouter(connect(mapStateToProps)(App));
 /* ------------------ CSS Styling Below ------------------ */
 
 var background = {
-  backgroundImage: `url(${bgImage})`,
+  // backgroundImage: `url(${bgImage})`,
+  // backgroundColor: '#595967',
+  // backgroundColor: '#0C0D1D',
+  // background: 'rgba(13, 14, 29, 1)',
+  backgroundColor: 'rgb(12, 13, 29)',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100% 100%',
   width: '100%',

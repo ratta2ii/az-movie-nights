@@ -32,17 +32,22 @@ function ProductDetails(props) {
     if (ele.productId == currentProductId) {
       productContent =
         <div>
+            {/* <h1 className={styles.productId}>Product Id: {ele.productId}</h1> */}
           <div className={styles.modalImageDiv}>
             <img className={styles.modalImage} src={ele.mainImage} />
           </div>
           <div>
             <h1 className={styles.productTitle}>{ele.title}</h1>
             <p className={styles.productDescription}>{ele.description}</p>
-            <h1 className={styles.productId}>Product Id: {ele.productId}</h1>
-            <h5 className={styles.productPrice}>$ {ele.price}</h5>
-            <div onClick={() => { handleAddToWishList(props); }}>
+          
+           
+            <div className={styles.addWishButton} onClick={() => { handleAddToWishList(props); }}>
               ADD TO WISHLIST
             </div>
+            <div className={styles.reserveButton} onClick={() => { handleAddToWishList(props); }}>
+              RESERVE NOW
+            </div>
+            <h5 className={styles.productPrice}>$ {ele.price}</h5>
           </div>
         </div>;
     }

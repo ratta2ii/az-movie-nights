@@ -15,7 +15,6 @@ function Home(props) {
       <Header />
       <AboutUs />
       <Screens /> 
-      <WishList />
       <ProductList productList={props.productList} />
       <style jsx>{` `}</style>
     </div>

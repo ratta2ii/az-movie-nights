@@ -1,14 +1,16 @@
 .headerComponent {
-  background-image: url('./../../assets/images/bg11.jpg');
+  background-image: url('./../../assets/images/bg19.jpg');
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /* The background image is in the App component at this time. I used this for width
 under 640px. Note to fix. The corresponding selector is the 640px media query. */
 
 .headerBackgroundImage {
-  background-color: rgba(170, 174, 245, 0.3);
+  background-color: rgba(20, 37, 84, 0.91);
 }
+
 
 .titleArea {
   width: 100%;
@@ -76,9 +78,9 @@ under 640px. Note to fix. The corresponding selector is the 640px media query. *
 
 @media only screen and (min-width: 640px) {
 
-  .headerComponent {
+  /* .headerComponent {
     background-image: none;
-  }
+  } */
 
   .titleArea {
     padding: 150px 30px;
