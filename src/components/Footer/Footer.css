@@ -1,6 +1,66 @@
 .footerComponent {
   width: 100%;
-  padding: 50px;
-  height: 300px;
   background-color: #0d234c;
+  padding-top: 150px 0 10px 0;
+}
+
+.companyLogo {
+  width: 300px;
+  margin-left: 10%;
+  float: left;
+}
+
+.bookNowButton {
+  width: 175px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.iconContainer {
+  width: 160px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+}
+
+#facebookIcon {
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+ 
+}
+
+#twitterIcon {
+  margin: 5px;
+  height: 40px;
+  border-radius: 5px;
+} 
+
+#instaIcon {
+  margin: 5px;
+  height: 40px;
+}
+
+.footerEmail {
+  color: #04ccff;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 70px;
+  
+
+}
+
+.footerPhone {
+  color: #c20100;
+  text-align: center;
+  margin: 10px 0 50px 0;
+  font-size: 30px;
+}
+
+
+
+.bookNowButton {
+  width: 175px;
+  margin-left: 70%;
 }
