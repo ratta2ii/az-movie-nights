@@ -1,4 +1,18 @@
 #wishListComponent {
   height: 300px;
-  background-color: royalblue;
+  /* background-color: royalblue; */
 }
+
+.wishListContainer {
+  width: 60%;
+  height: 400px;
+  margin: 125px auto;
+  background: #f6961b;
+  padding: 50px;
+}
+
+.wishListHeader {
+   font-family: sans-serif;
+   margin-bottom: 50px;
+}
+

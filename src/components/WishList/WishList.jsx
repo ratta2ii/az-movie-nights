@@ -9,14 +9,18 @@ function WishList(props) {
   return (
 
     <div id={styles.wishListComponent}>
-      {Object.keys(props.wishList).map(function (productId) {
-        var product = props.wishList[productId];
-        return <Wish
-          title={product.title}
-          price={product.price}
-          key={productId}
-        />;
-      })}
+      <div className={styles.wishListContainer}>
+        <h1 className={styles.wishListHeader}>UNDER CONSTRUCTION, but here is the data.</h1>
+
+        {Object.keys(props.wishList).map(function (productId) {
+          var product = props.wishList[productId];
+          return <Wish
+            title={product.title}
+            price={product.price}
+            key={productId}
+          />;
+        })}
+      </div>
     </div>
   );
 }

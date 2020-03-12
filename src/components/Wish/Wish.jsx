@@ -7,7 +7,7 @@ function Wish(props) {
 
   let content =
     <div>
-      <h1>{props.title} | {props.price}</h1>
+      <h1>{props.title} | ${props.price}</h1>
     </div>;
     
 
