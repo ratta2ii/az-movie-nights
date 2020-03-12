@@ -8,13 +8,13 @@
 
 ![Image of Paths](src/assets/images/homepage-screen-shot.png)
 
-![Image of Paths](src/assets/images/screen3.png)
-
-
 ![Image of Paths](src/assets/images/screen1.png)
 
 
-![Image of Paths](src/assets/images/screen4.png)
+![Image of Paths](src/assets/images/screen2.png)
+
+
+![Image of Paths](src/assets/images/screen3.png)
 
 </center>
 

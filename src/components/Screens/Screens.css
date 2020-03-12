@@ -11,7 +11,7 @@
 .screensGridContainer {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  padding: 0 10%;
+  padding: 0 10% 10% 10%;
   letter-spacing: 1px;
 } 
 
@@ -47,9 +47,10 @@
   font-family: none;
   text-align: center;
   padding: 15px;
-  border-bottom: 2px solid #0068ff;
+  border-bottom: 8px solid #0068ff;
   margin: 0px auto 25px;
   color: #ffaa00;
+  font-family: sans-serif;
 }
 
 .screenDescription  {
@@ -75,6 +76,11 @@
   font-size: 12px;
   margin-bottom: 5px;
   font-family: fantasy;
+}
+
+.bookNowButton {
+  width: 40%;
+  margin: 50px 30%;
 }
 
 
@@ -221,6 +227,7 @@
   
   .screensImageStyling {
     padding: 20px;
+    margin-top: 100px;
   }  
 
   .screensImageStyling {
@@ -250,7 +257,7 @@
 
   .screensImageContainer {
     margin: 0px;
-    padding: 95px 0px 70px 30px;
+    padding: 130px 0px 70px 30px;
   }
 
   .screensInfoContainer {
@@ -261,18 +268,14 @@
 
   .screensHeader {
     width: 100%;
-    font-size: 40px;
-    padding: 15px;
-    margin: 0px auto 20px;
+    font-size: 35px;
+    padding-bottom: 30px;
+    margin: 0px auto 30px;
   }
   
-
-  .screensImageStyling {
-    padding: 20px;
-  }  
-
   .screensImageStyling {
     padding: 10px;
+    margin-top: 50px;
   }  
 
 }

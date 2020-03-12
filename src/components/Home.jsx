@@ -16,6 +16,7 @@ function Home(props) {
       <AboutUs />
       <Screens /> 
       <ProductList productList={props.productList} />
+      <Footer />
       <style jsx>{` `}</style>
     </div>
   );

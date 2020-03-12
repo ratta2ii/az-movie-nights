@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './AboutUs.css';
-import giantScreen from './../../assets/images/giant-screen.jpg';
+import giantScreen from './../../assets/images/movie-pic.jpg';
+import bookNow from './../../assets/images/book-online-button.png';
 
 
 function AboutUs() {
@@ -21,7 +22,8 @@ function AboutUs() {
           <p className={styles.companyDescription}>We are here to help you plan your next event, whether that be a small backyard party,
             or a much larger city or corporate event. We are an upscale rental company offering
             exceptional service at an affordable price.</p>
-          <p className={styles.companyDescription}>Please check out some photos <Link to="/images">HERE</Link> to see some of the different type events that we have partnered with in the past.</p>
+          <p className={styles.companyDescription}>Please check out some photos <Link to="/images">HERE</Link> to see some of the different events that we have partnered with in the past.</p>
+          <Link to="/reserveform"><img src={bookNow} className={styles.bookNowButton} /></Link>
         </div>
 
       </div>
