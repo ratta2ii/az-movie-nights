@@ -128,4 +128,4 @@ This site will function as main webpage for a small business owner who runs an o
 
 ## **License**
 
-Copyright (c) 2020 **MIT**
+Copyright (c) 2020 **MIT** (Trevor Mackin)
