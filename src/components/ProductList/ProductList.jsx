@@ -8,9 +8,6 @@ import SingleProduct from './../SingleProduct/SingleProduct';
 
 function ProductList(props) {
 
-  // console.log("I am from ProductList props");
-  // console.log(props);
-
   return (
     <div id={styles.productListComponent}>
       

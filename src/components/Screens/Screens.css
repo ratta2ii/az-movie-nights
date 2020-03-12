@@ -1,7 +1,4 @@
 .screensComponent {
-  /* background-color:#2f2f30; 
-  background-color:#1F2155;
-  background-color: rgb(55, 57, 83, .9); */
   background-color: #0d234c;
   margin: 0;
   padding: 0;
@@ -29,6 +26,7 @@
   grid-area: screensInfoContainer;
   width: 100%;
   font-size: 14px;
+  text-align: justify;
 
 }
 
