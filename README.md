@@ -6,9 +6,15 @@
 
 <center>
 
-<!-- ![ Screenshot of Project ](src/assets/images/beerShack.gif) -->
+![Image of Paths](src/assets/images/homepage-screen-shot.png)
 
-![Image of Paths](src/assets/images/az-movies-screenshot.png)
+![Image of Paths](src/assets/images/screen3.png)
+
+
+![Image of Paths](src/assets/images/screen1.png)
+
+
+![Image of Paths](src/assets/images/screen4.png)
 
 </center>
 
@@ -23,6 +29,15 @@ _When a user has decided that they have saved all relevant products in the wish 
 
 _The reason for the unorthodox checkout, and the reason for a wish list instead of a cart, is due to the nature of the company. It is my understanding that the company prefers to first speak with customers due to the many factors that go into planning an event. This site will eventually function as the main page for an event team, and they have requested that the site follow this model._ 
 #
+
+## **Component Tree (Planning Phase)**
+
+
+<center>
+
+![Image of Paths](src/assets/images/component-structure.png)
+
+</center>
 
 
 ##  **Setup/Installation Instructions**
@@ -47,14 +62,7 @@ _The reason for the unorthodox checkout, and the reason for a wish list instead 
 * Sidebar activated when a user selects the hamburger icon
 #
    
-## **Component Tree (Planning Phase)**
 
-
-<center>
-
-![Image of Paths](src/assets/images/component-structure.png)
-
-</center>
 
 
 ### **Technologies Used**
