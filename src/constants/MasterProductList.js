@@ -24,7 +24,7 @@ export const masterProductList = [{
   price: '149',
   mainImage: soundImage,
   key: 1,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis.'
 },
 {
   title: 'Screens',
@@ -33,7 +33,7 @@ export const masterProductList = [{
   price: '499',
   mainImage: screensImage,
   key: 2,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. '
 },
 {
   title: 'Complete Package',
@@ -42,7 +42,7 @@ export const masterProductList = [{
   price: '499',
   mainImage: completePackage,
   key: 3,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil.'
 },
 {
   title: 'Popcorn Cart',
@@ -51,7 +51,7 @@ export const masterProductList = [{
   price: '49',
   mainImage: popcornCart,
   key: 4,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. '
 },
 {
   title: 'Sound Equipment',
@@ -60,7 +60,7 @@ export const masterProductList = [{
   price: '499',
   mainImage: screensImage,
   key: 5,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. '
 },
 {
   title: 'Complete Package',
@@ -69,7 +69,7 @@ export const masterProductList = [{
   price: '499',
   mainImage: screensImage,
   key: 6,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil.'
 },
 {
   title: 'Sound Equipment',
@@ -78,6 +78,6 @@ export const masterProductList = [{
   price: '149',
   mainImage: soundImage,
   key: 7,
-  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. Culpa repellendus consequuntur voluptatum pariatur asperiores reprehenderit quae saepe, ex exercitationem eveniet fugiat rem, a nostrum assumenda similique nesciunt magni nulla consequatur, hic dignissimos officiis blanditiis eaque aut. Modi harum nihil vero, animi rem maiores, dignissimos eius quos ducimus laboriosam necessitatibus cupiditate libero hic! Optio.'
+  description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. '
 }];
 

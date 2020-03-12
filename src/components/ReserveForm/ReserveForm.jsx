@@ -45,7 +45,7 @@ function ReserveForm(props) {
                   
                   The Wish List you created will be sent to the team in addition to the rest of the information you fill out in the form. The wish list is NOT required though, so we will leave that part up to you. You can expect a call with one our staff members within the next 24 hours, or you may call (555)-555-5555 any time. Thank you so much for contacting us, we are happy to be a part of your next event.
               </p>
-              <Link to='/wishlist' className={styles.wishLink}>CURRENT WISH LIST HERE</Link>.
+              <Link to='/wishlist' className={styles.wishLink}>VIEW WISH LIST HERE</Link>.
           </div>
 
           <div className={styles.reserveFormContainer}>

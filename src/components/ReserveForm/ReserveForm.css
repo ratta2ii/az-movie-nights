@@ -3,40 +3,46 @@
     background-image: url('./../../assets/images/sunset.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 20px 150px;
+    padding: 20px 150px 20px 110px;
     
 }
 
 .infoContainer {
   float: left;
-  width: 30%;
+  width: 28%;
   text-align: justify;
   background: rgba(14, 14, 29, 0.78);;
-  margin-top: 45px;
+  margin-top: 110px;
   margin-right: 20px;
-  padding: 35px 35px 15px;
+  padding: 35px 35px 20px;
   border-radius: 8px;
 }
 
 .information {
-  font-size: 18px;
+  font-size: 17px;
   color: rgb(238, 6, 7);
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 45px;
   font-family: sans-serif;
+  /* font-style: italic; */
   font-weight: 400;
 }
 
 .note {
-  margin: 0 0 15px 100px;
-  font-size: 40px;
+  font-size: 45px;
   color: rgb(238, 6, 7);
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+  border-bottom: 10px solid #665d60;
+  padding-bottom: 15px;
 }
 
 .wishLink {
   font-size: 18px;
   font-family: sans-serif;
   font-weight: bolder;
+  color: #1774df;
 }
      
   .reserveFormContainer {

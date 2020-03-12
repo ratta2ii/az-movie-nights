@@ -198,12 +198,13 @@
    
    .productBoxImage {
       height: 150px;
+      padding: 10px;
    }
 
     .titleStyling {
     height: 40px;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 15px;
   }
 
 }
