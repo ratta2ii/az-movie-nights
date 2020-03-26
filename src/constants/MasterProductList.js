@@ -2,10 +2,10 @@ import { v4 } from 'uuid';
 import screensImage from './../assets/images/screens.jpg';
 import soundImage from './../assets/images/sound.jpg';
 import giantScreenImage from './../assets/images/giant-screen.jpg';
-import popcornCart from './../assets/images/product-popcorn.jpg';
+import popcornCart from './../assets/images/product-popcorn5.jpg';
 import cottonCandy from './../assets/images/product-cotton-candy.jpg';
-import tableChairs from './../assets/images/product-table-chairs.jpg';
-import hotdogCart from './../assets/images/product-hotdog-cart.jpg';
+import tableChairs from './../assets/images/productTable.jpg';
+import hotdogCart from './../assets/images/product-hotdog.png';
 
 import completePackage from './../assets/images/package.png';
 
@@ -59,7 +59,7 @@ export const masterProductList = [
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quia neque quidem voluptatum, quaerat fuga? Illo, a! Error minima odit sit totam iusto eveniet consequuntur corporis laboriosam nobis aperiam nostrum, ad voluptatibus nihil. Nam, asperiores voluptas ab accusamus reiciendis quidem earum dolorum. Ipsum nam ut magni sequi qui. Explicabo, neque nihil ea nesciunt repudiandae ducimus. '
   },
   {
-    title: 'Popcorn Cart',
+    title: 'Popcorn Machine',
     id: v4(),
     productId: '5',
     price: '49',

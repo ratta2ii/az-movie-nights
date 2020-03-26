@@ -100,8 +100,12 @@
     box-shadow:  2px 2px 5px 3px rgb(15, 12, 12, .7); 
   }
 
-
-
+  @media screen and (min-width: 800px) {
+    #reserveFormComponent {
+      padding-top: 170px;
+      
+    }
+  }
 
 
 

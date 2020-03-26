@@ -79,7 +79,7 @@ function ProductDetails(props) {
 }
 
 ProductDetails.propTypes = {
-  selectedProduct: PropTypes.string,
+  selectedProduct: PropTypes.object,
   productList: PropTypes.array
 };
 

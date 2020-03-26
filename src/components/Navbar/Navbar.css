@@ -45,7 +45,7 @@
   border: 3px solid #1874df;
   list-style-type: none;
   padding: 10px;
-  margin: 50px -2px;
+  margin: 35px -2px;
   letter-spacing: 1px;
 }
 
@@ -59,7 +59,7 @@
   color: #ffb120;
   font-weight: bold;
   padding: 10px;
-  margin: 50px -2px 25px 50px;
+  margin: 35px -2px 25px 35px;
 }
 
 .contactContainer {
@@ -74,8 +74,8 @@
 
 #companyLogo {
   float: right;
-  margin: 35px 40px 0 0;
-  height: 80px;
+  margin: 25px 20px 0 0;
+  height: 75px;
 }
 
 /* #facebookIcon {
@@ -118,7 +118,10 @@
 
 @media only screen and (min-width: 800px) {
   .navComponent {
-    height: 150px;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
   }
   .navBody {
     display: unset;

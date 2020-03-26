@@ -1,0 +1,216 @@
+.formComponent {
+  /* padding: 15px; */
+  /* background-color: #0d234c; */
+  /* background: rgb(53,77,112);
+  background: radial-gradient(circle, rgba(53,77,112,1) 11%, rgba(13,35,76,1) 100%); */
+  background: rgb(31,55,89);
+  background: radial-gradient(circle, rgba(31,55,89,1) 11%, rgba(13,35,76,1) 100%);  
+  min-height: 75%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.infoContainer {
+  width: 85%;
+  max-width: 660px;
+  text-align: justify;
+  background: rgba(14, 14, 29, 0.78);;
+  margin: 0 auto;
+  padding: 35px 35px 20px;
+  border-radius: 8px;
+}
+
+.information {
+  font-size: 17px;
+  color: rgb(238, 6, 7);
+  margin-top: 25px;
+  margin-bottom: 45px;
+  font-family: sans-serif;
+  /* font-style: italic; */
+  font-weight: 400;
+}
+
+.note {
+  font-size: 45px;
+  color: rgb(238, 6, 7);
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+  border-bottom: 10px solid #665d60;
+  padding-bottom: 15px;
+}
+
+.wishLink {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #1774df;
+}
+
+#reserveForm {
+  width: 90%;
+  margin: 0 auto;
+  padding: 35px 0 25px;
+}
+
+.formEntryNameDiv {
+  width: 90%;
+  margin: 0px auto;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.formEntryDiv {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.formEntryDiv:hover, .formEntryNameDiv:hover, .textBox:hover {
+  outline: 3px solid red;
+}
+
+.formInput {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.formDateInput {
+  border: none;
+  width: 100%;
+  padding: 4px 5px 0px 5px;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.formInput:focus {
+  border: none;
+}
+
+
+
+.formEntryDiv:focus {
+  background-color: blue;
+}
+
+.formLabel {
+  font-size: .8rem;
+}
+
+.textBox {
+  width: 100%;
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
+  padding: 10px;
+}
+
+.textBoxDiv {
+  width: 94%;
+  margin: 20px auto;
+}
+
+.submitButton {
+  border: none;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 15px;
+  padding: 15px;
+  outline: none;
+  background-color:#11a4cd;
+  font-size: 1.1rem;
+  color:#fdf8e5;
+  font-weight: 400;
+  -webkit-box-shadow: 3px 4px 15px -2px #000000; 
+  box-shadow: 2px 3px 10px -1px #000000;
+  border-radius: 7px;
+}
+
+.submitButton:active,
+.submitButton:focus,
+.submitButton:focus:active {
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+@media only screen and (min-width: 450px) {
+  .formComponent {
+    padding: 60px 5%;
+  }
+  .infoContainer {
+    margin-bottom: 30px;
+  }
+}  
+
+@media only screen and (min-width: 700px) {
+  #reserveForm {
+    max-width: 700px;
+    padding-bottom: 0px;
+  }
+
+  .formEntryNameDiv {
+    width: 45%;
+    margin-left: 20px;
+    padding: 5px;
+  }
+
+  .formEntryDiv {
+    width: 45%;
+    float: left;
+    margin: 20px 0px 0 20px;
+  }
+
+  .submitButton {
+    padding: 15px;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    color: #e9e4d4;
+    margin-bottom: 35px;
+  }
+
+  .textBox {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+/*   
+  .textBoxDiv {
+    width: 94%;
+    margin: 150px auto 0 auto;
+  } */
+}
+
+@media only screen and (min-width: 800px) {
+  .formComponent {
+    padding-top: 180px;
+    padding-bottom: 680px;
+  }
+}
+
+@media only screen and (min-width: 1144px) {
+ .infoContainer {
+  float: left;
+  width: 28%;
+  text-align: justify;
+  background: rgba(14, 14, 29, 0.78);;
+  margin-top: 33px;
+  margin-right: 30px;
+  padding: 35px 35px 20px;
+  border-radius: 8px;
+}
+
+  #reserveForm {
+    width: 90%;
+    float: left;
+  }
+}  

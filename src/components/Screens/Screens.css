@@ -26,8 +26,8 @@
   grid-area: screensInfoContainer;
   width: 100%;
   font-size: 14px;
-  text-align: justify;
-
+  text-align: justify; 
+  text-justify: inter-character;
 }
 
 

@@ -6,6 +6,10 @@ import Wish from './../Wish/Wish';
 
 function WishList(props) {
 
+  console.log((props.wishList));
+
+  
+
   return (
 
     <div id={styles.wishListComponent}>
@@ -17,6 +21,7 @@ function WishList(props) {
           return <Wish
             title={product.title}
             price={product.price}
+            id={productId}
             key={productId}
           />;
         })}
@@ -29,7 +34,7 @@ function WishList(props) {
 WishList.propTypes = {
   wishList: PropTypes.object,
   currentRouterPath: PropTypes.string,
-  dispatch: PropTypes.function
+  dispatch: PropTypes.func
 };
 
 const mapStateToProps = state => {

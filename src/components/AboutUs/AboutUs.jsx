@@ -5,6 +5,7 @@ import giantScreen from './../../assets/images/movie-pic.jpg';
 import bookNow from './../../assets/images/book-online-button.png';
 
 
+
 function AboutUs() {
 
 

@@ -1,3 +1,5 @@
+/* eslint-disable no-case-declarations */
+/* eslint-disable no-console */
 /* eslint-disable indent */
 export default (state = {}, action) => {
   let newState;
@@ -9,6 +11,16 @@ export default (state = {}, action) => {
           price: action.product.price
         }
       });
+      return newState;
+    case 'REMOVE_PRODUCT':
+      console.log('I am the REMOVE_PRODUCT state before');
+      console.log(state);
+      console.log(action.product.id);
+      const indx = parseInt(action.product.id);
+      newState = state;
+      delete newState[indx];
+      console.log('I am the REMOVE_PRODUCT newState after');
+      console.log(newState);
       return newState;
     default:
       return state;

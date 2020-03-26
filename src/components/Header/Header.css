@@ -2,6 +2,7 @@
   background-image: url('./../../assets/images/bg19.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  padding-top: 120px;
 }
 
 /* The background image is in the App component at this time. I used this for width
@@ -37,6 +38,8 @@ under 640px. Note to fix. The corresponding selector is the 640px media query. *
   font-family: Arial, Helvetica, sans-serif;
   border-left: 5px solid #4286bb;
   padding-left: 7px;
+  text-align: justify; 
+  text-justify: inter-character;
 }
 
 .commentSignature {

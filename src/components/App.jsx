@@ -7,9 +7,11 @@ import Home from './Home';
 import ProductDetails from './ProductDetails/ProductDetails';
 import Navbar from './Navbar/Navbar';
 import WishList from './WishList/WishList';
-import ProductList from'./ProductList/ProductList';
+import ProductList from './ProductList/ProductList';
 import ReserveForm from './ReserveForm/ReserveForm';
 import bgImage from '../assets/images/bg1.jpg';
+import MyForm from './tests/MyForm/MyForm';
+import Images from './Images/Images';
 // import c from './../constants';
 // import Moment from 'moment';
 // import { v4 } from 'uuid';
@@ -26,8 +28,15 @@ class App extends React.Component {
       <div style={background}>
         <Navbar />
         <Switch>
+
+          <Route path='/formTest' render={() => <MyForm
+            wishList={this.props.wishList}
+          />} />
+
           <Route exact path='/' render={() => <Home
             productList={this.props.masterProductList} />} />
+
+          <Route exact path='/images' render={() => <Images />} />
 
           <Route path='/productdetails' render={() => <ProductDetails
             productList={this.props.masterProductList}
@@ -41,7 +50,9 @@ class App extends React.Component {
             currentRouterPath={this.props.location.pathname} />} />
 
           <Route path='/productlist' render={() => <ProductList
-            productList={this.props.masterProductList} />} />
+            productList={this.props.masterProductList}
+            currentRouterPath={this.props.location.pathname}
+          />} />
 
 
           <Route component={Error404} />
