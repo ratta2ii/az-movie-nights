@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Screens.css';
 import screensImage from './../../assets/images/screens.jpg';
-import bookNow from './../../assets/images/book-online-button.png';
+// import bookNow from './../../assets/images/book-online-button.png';
 
 
 function Screens() {

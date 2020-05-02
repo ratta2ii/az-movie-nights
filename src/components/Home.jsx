@@ -4,7 +4,6 @@ import Screens from './Screens/Screens';
 import Header from './Header/Header';
 import ProductList from './ProductList/ProductList';
 import AboutUs from './AboutUs/AboutUs';
-import WishList from'./WishList/WishList';
 import Footer from'./Footer/Footer';
 
 
@@ -17,7 +16,7 @@ function Home(props) {
       <Screens /> 
       <ProductList productList={props.productList} />
       <Footer />
-      <style jsx>{` `}</style>
+      {/* <style jsx>{` `}</style> */}
     </div>
   );
 }

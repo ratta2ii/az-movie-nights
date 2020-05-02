@@ -8,7 +8,7 @@ import { Email } from './../../constants/smtp';
 
 
 
-function ReserveForm(props) {
+function ReserveForm() {
 
     let _names = null;
     let _email = null;
@@ -19,19 +19,22 @@ function ReserveForm(props) {
     function handleSubmitReserveForm(event) {
         event.preventDefault();
 
-        console.log(_names.value);
-        console.log(_email.value);
-        console.log(_phoneNumber.value);
-        console.log(_date.value);
-        console.log(_message.value);
+        // console.log(_names.value);
+        // console.log(_email.value);
+        // console.log(_phoneNumber.value);
+        // console.log(_date.value);
+        // console.log(_message.value);
 
-        const messageConfirmation = "Your message has been sent successfully!";
+        
 
         const names = _names.value;
         const email = _email.value;
         const phoneNumber = _phoneNumber.value;
         const date = _date.value;
         const message = _message.value;
+
+        // eslint-disable-next-line no-unused-vars 
+        const messageConfirmation = 'Your message has been sent successfully!';
 
         Email.send({
             Host: 'smtp.elasticemail.com',
@@ -74,42 +77,42 @@ function ReserveForm(props) {
             <div className={styles.reserveFormContainer}>
 
                 <form id='reserveForm' onSubmit={handleSubmitReserveForm}>
-        
+
 
                     <p className={styles.formLabel}>Full Name</p>
                     <input className={styles.inputField}
-                        type='text'
-                        id='names'
-                        // placeholder='First and Last Name'
-                        ref={(input) => { _names = input; }} />
+                      type='text'
+                      id='names'
+                      // placeholder='First and Last Name'
+                      ref={(input) => { _names = input; }} />
 
                     <p className={styles.formLabel}>Email</p>
                     <input className={styles.inputField}
-                        type='email'
-                        id='email'
-                        // placeholder='Email Address'
-                        ref={(input) => { _email = input; }} />
+                      type='email'
+                      id='email'
+                      // placeholder='Email Address'
+                      ref={(input) => { _email = input; }} />
 
                     <p className={styles.formLabel}>Phone Number</p>
                     <input className={styles.inputField}
-                        type='tel'
-                        id='phoneNumber'
-                        // placeholder='Enter PhoneNumber'
-                        ref={(input) => { _phoneNumber = input; }} />
+                      type='tel'
+                      id='phoneNumber'
+                      // placeholder='Enter PhoneNumber'
+                      ref={(input) => { _phoneNumber = input; }} />
 
                     <p className={styles.formLabel}>Event Date</p>
                     <input className={styles.inputField}
-                        type='date'
-                        id='date'
-                        // placeholder='Choose Date'
-                        ref={(input) => { _date = input; }} />
+                      type='date'
+                      id='date'
+                      // placeholder='Choose Date'
+                      ref={(input) => { _date = input; }} />
 
                     <p className={styles.formLabel}>Message</p>
                     <input className={styles.messageField}
-                        type='text'
-                        id='message'
-                        // placeholder='Optional'
-                        ref={(input) => { _message = input; }} />
+                      type='text'
+                      id='message'
+                      // placeholder='Optional'
+                      ref={(input) => { _message = input; }} />
 
                     <div>
                         <button className={styles.submitButton} type='submit'>BOOK NOW</button>

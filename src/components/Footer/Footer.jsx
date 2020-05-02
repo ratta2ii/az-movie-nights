@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styles from './Footer.css';
 import facebookIcon from './../../assets/images/facebook-icon.png';
 import twitterIcon from './../../assets/images/twitter-icon.png';
 import instaIcon from './../../assets/images/instagram-icon.png';
-import bookNow from './../../assets/images/book-online-button.png';
-import logo from './../../assets/images/logo.png';
+// import bookNow from './../../assets/images/book-online-button.png';
+// import logo from './../../assets/images/logo.png';
 
 
 

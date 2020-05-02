@@ -3,12 +3,18 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styles from './WishList.css';
 import Wish from './../Wish/Wish';
+import { render } from 'react-dom';
 
 function WishList(props) {
 
-  console.log((props.wishList));
-
-  
+  function handleRemoveProductFromWishList(productProps) {
+    const { dispatch } = props;
+    const action = {
+      type: 'REMOVE_PRODUCT',
+      product: productProps
+    };
+    dispatch(action);
+  }
 
   return (
 
@@ -19,6 +25,7 @@ function WishList(props) {
         {Object.keys(props.wishList).map(function (productId) {
           var product = props.wishList[productId];
           return <Wish
+            onRemoveProductFromWishList={handleRemoveProductFromWishList}
             title={product.title}
             price={product.price}
             id={productId}
@@ -29,7 +36,6 @@ function WishList(props) {
     </div>
   );
 }
-
 
 WishList.propTypes = {
   wishList: PropTypes.object,
@@ -44,4 +50,8 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps)(WishList);
+
+
+
+
 

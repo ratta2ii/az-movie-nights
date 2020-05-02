@@ -8,11 +8,15 @@ import rootReducer from './reducers/index';
 
 
 
-const store = createStore(rootReducer);
+export const store = createStore(rootReducer);
+
+
 
 // let unsubscribe = store.subscribe(() =>
-//   console.log(store.getState().selectedProduct.productId)
+//   console.log(store.getState().wishList)
 // )
+
+
 
 const render = (Component) => {
   ReactDOM.render(

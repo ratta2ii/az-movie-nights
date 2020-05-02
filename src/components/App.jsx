@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -9,12 +10,8 @@ import Navbar from './Navbar/Navbar';
 import WishList from './WishList/WishList';
 import ProductList from './ProductList/ProductList';
 import ReserveForm from './ReserveForm/ReserveForm';
-import bgImage from '../assets/images/bg1.jpg';
 import MyForm from './tests/MyForm/MyForm';
 import Images from './Images/Images';
-// import c from './../constants';
-// import Moment from 'moment';
-// import { v4 } from 'uuid';
 
 
 
@@ -23,9 +20,11 @@ class App extends React.Component {
 
   render() {
 
-
+   
     return (
+
       <div style={background}>
+
         <Navbar />
         <Switch>
 
@@ -44,7 +43,8 @@ class App extends React.Component {
             wishList={this.props.wishList} />} />
 
           <Route path='/wishlist' render={() => <WishList
-            currentRouterPath={this.props.location.pathname} />} />
+            currentRouterPath={this.props.location.pathname} 
+            wishList={this.props.wishList} />} />
 
           <Route path='/reserveform' render={() => <ReserveForm
             currentRouterPath={this.props.location.pathname} />} />
@@ -54,10 +54,10 @@ class App extends React.Component {
             currentRouterPath={this.props.location.pathname}
           />} />
 
-
           <Route component={Error404} />
+          
         </Switch>
-        <style global jsx>{` `}</style>
+        {/* <style global jsx>{` `}</style> */}
       </div>
     );
 
@@ -67,7 +67,11 @@ class App extends React.Component {
 
 
 App.propTypes = {
-  masterProductList: PropTypes.array
+  masterProductList: PropTypes.array,
+  wishList: PropTypes.object,
+  selectedProduct: PropTypes.object,
+  location: PropTypes.object,
+  currentRouterPath: PropTypes.string
 };
 
 
@@ -81,8 +85,6 @@ const mapStateToProps = state => {
 
 
 export default withRouter(connect(mapStateToProps)(App));
-
-
 
 
 

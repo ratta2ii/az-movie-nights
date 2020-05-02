@@ -34,7 +34,7 @@ function ProductDetails(props) {
         <div>
           <h1 className={styles.construction}>This page still needs styling!</h1>
           <h1 className={styles.construction}>More data coming as well.</h1>
-            {/* <h1 className={styles.productId}>Product Id: {ele.productId}</h1> */}
+          {/* <h1 className={styles.productId}>Product Id: {ele.productId}</h1> */}
           <div className={styles.modalImageDiv}>
             <img className={styles.modalImage} src={ele.mainImage} />
           </div>
