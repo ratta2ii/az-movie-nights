@@ -26,7 +26,6 @@ function ModalImages() {
     modal[0].style.display = 'none';
   }
 
-
   return (
     <div id={styles.modalImagesComponent}>
 
@@ -35,8 +34,6 @@ function ModalImages() {
           src: cool
         });
       }} />
-
-     
 
       {/* <!-- The Modal --> */}
       <section id="myModal" className={styles.modal}>

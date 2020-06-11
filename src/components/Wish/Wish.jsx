@@ -5,8 +5,8 @@ import { connect } from 'react-redux';
 import styles from './Wish.css';
 
 
-class Wish extends React.Component {
 
+class Wish extends React.Component {
 
   render() {
 
@@ -14,7 +14,6 @@ class Wish extends React.Component {
       <div>
         <h1>{this.props.title} | ${this.props.price}</h1>
       </div>;
-
 
     return (
       <div id={styles.wishComponent}>

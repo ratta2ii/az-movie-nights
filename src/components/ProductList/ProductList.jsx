@@ -3,11 +3,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ProductList.css';
 import SingleProduct from './../SingleProduct/SingleProduct';
-// import c from './../../constants';
+
 
 
 function ProductList(props) {
-
 
   if (props.currentRouterPath == '/productlist') {
     return (
@@ -33,6 +32,7 @@ function ProductList(props) {
 
       </div>
     );
+    
   } else {
     return (
       <div id="something" className={styles.productListComponent} >
@@ -58,8 +58,6 @@ function ProductList(props) {
       </div>
     );
   }
-
-
 }
 
 ProductList.proptypes = {

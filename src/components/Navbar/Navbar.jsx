@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import styles from './Navbar.css';
 import hamburger from './../../assets/images/hamburger-edit.png';
 import logo from './../../assets/images/logo.png';
-// import facebookIcon from './../../assets/images/facebook-icon.png';
-// import twitterIcon from './../../assets/images/twitter-icon.png';
 
 
 
@@ -31,7 +29,6 @@ export default function Navbar() {
         </ul>
       </nav>
 
-
       <nav className={styles.navbarContainer}>
         <ul className={styles.ulTag2} >
           <Link to="/"><li className={styles.homeLink} >HOME</li></Link>
@@ -44,14 +41,16 @@ export default function Navbar() {
         {/* <img src={facebookIcon} id={styles.facebookIcon} />
         <img src={twitterIcon} id={styles.twitterIcon} /> */}
       </nav>
+
       <div className={styles.contactContainer}>
         <Link to="/">
           <h5 className={styles.contactInfo}>Email: example@example.com</h5>
-        </Link> 
+        </Link>
         <h5 className={styles.contactInfo}>Phone: (555) 555-5555</h5>
       </div>
+
       <style jsx>{`
-         .active {
+        .active {
           position: fixed;
           display: block;
           background: #23376b;;
@@ -63,6 +62,5 @@ export default function Navbar() {
         }
         `}</style>
     </div>
-
   );
 }

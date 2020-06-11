@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Screens.css';
 import screensImage from './../../assets/images/screens.jpg';
-// import bookNow from './../../assets/images/book-online-button.png';
+
 
 
 function Screens() {
@@ -13,8 +13,6 @@ function Screens() {
         <div className={styles.screensImageContainer}>
           <img className={styles.screensImageStyling} src={screensImage} />
         </div>
-
-    
 
         <div className={styles.screensInfoContainer}>
 
@@ -40,13 +38,8 @@ function Screens() {
             </li>
           </ul>
         </div>
+
       </div>
-
-
-
-
-
-
     </div>
   );
 }

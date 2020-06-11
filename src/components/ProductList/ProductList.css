@@ -9,7 +9,6 @@
   background: radial-gradient(circle, rgba(31,55,89,1) 11%, rgba(13,35,76,1) 100%);  
 }
 
-
 .productHeaderContainer {
   display: none;
 }
@@ -20,12 +19,6 @@
   line-height: 1.1;
   margin-top: 42px;  font-family: sans-serif;
 }
-
-
-/* 
-.productHeaderContainer {
-  display: none;
-}  */
 
 
 @media only screen and (min-width: 400px) {
@@ -69,6 +62,7 @@
   }
 }
 
+
 @media only screen and (min-width: 800px) {
   .background {
     padding-top: 120px;
@@ -78,6 +72,7 @@
     padding-top: 120px;
   }
 }
+
 
 @media only screen and (min-width: 1200px) {
   .background {
@@ -118,6 +113,7 @@
   }
 
 }
+
 
 @media only screen and (min-width: 1450px) {
   

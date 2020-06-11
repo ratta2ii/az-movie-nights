@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import styles from'./Error404.css';
 
+
+
 function Error404(props) {
 
   return (

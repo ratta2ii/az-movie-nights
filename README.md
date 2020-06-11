@@ -1,28 +1,20 @@
 # **AZ Movies Nights**
-
-
 ###### By Trevor Mackin 02/28/2020  
 
-
 <center>
-
-![Image of Paths](src/assets/images/az_main2.png)
-![Image of Paths](src/assets/images/screen1.png)
-![Image of Paths](src/assets/images/screen2.png)
-![Image of Paths](src/assets/images/az_products2.png)
-![Image of Paths](src/assets/images/az_form2.png)
-![Image of Paths](src/assets/images/screen5.png)
-![Image of Paths](src/assets/images/az_modal2.png)
-
+  ![Image of Paths](src/assets/images/az_main2.png)
+  ![Image of Paths](src/assets/images/screen1.png)
+  ![Image of Paths](src/assets/images/screen2.png)
+  ![Image of Paths](src/assets/images/az_products2.png)
+  ![Image of Paths](src/assets/images/az_form2.png)
+  ![Image of Paths](src/assets/images/screen5.png)
+  ![Image of Paths](src/assets/images/az_modal2.png)
 </center>
-
 
 ## **Component Tree (Planning Phase)**
 
 <center>
-
-![Image of Paths](src/assets/images/component-structure.png)
-
+  ![Image of Paths](src/assets/images/component-structure.png)
 </center>
 
 #
@@ -62,7 +54,6 @@ _The reason for the unorthodox checkout, and the reason for a wish list instead 
 #  
 #
 ### **Technologies Used**
-
 
 * React
 * JavaScript

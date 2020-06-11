@@ -12,7 +12,6 @@ under 640px. Note to fix. The corresponding selector is the 640px media query. *
   background-color: rgba(20, 37, 84, 0.91);
 }
 
-
 .titleArea {
   width: 100%;
   padding: 50px 20px;;
@@ -52,7 +51,6 @@ under 640px. Note to fix. The corresponding selector is the 640px media query. *
 }
 
 
-
 @media only screen and (min-width: 460px) {
 
   .titleArea {
@@ -81,10 +79,6 @@ under 640px. Note to fix. The corresponding selector is the 640px media query. *
 
 @media only screen and (min-width: 640px) {
 
-  /* .headerComponent {
-    background-image: none;
-  } */
-
   .titleArea {
     padding: 150px 30px;
   }
@@ -111,6 +105,7 @@ under 640px. Note to fix. The corresponding selector is the 640px media query. *
 
 
 @media only screen and (min-width: 900px) {
+  
   .titleArea {
     padding: 150px 30px;
     max-height: 650px;

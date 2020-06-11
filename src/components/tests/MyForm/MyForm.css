@@ -10,7 +10,6 @@
   padding-bottom: 20px;
 }
 
-
 .infoContainer {
   width: 85%;
   max-width: 660px;
@@ -94,8 +93,6 @@
   border: none;
 }
 
-
-
 .formEntryDiv:focus {
   background-color: blue;
 }
@@ -142,6 +139,7 @@
 
 
 @media only screen and (min-width: 450px) {
+  
   .formComponent {
     padding: 60px 5%;
   }
@@ -150,7 +148,9 @@
   }
 }  
 
+
 @media only screen and (min-width: 700px) {
+
   #reserveForm {
     max-width: 700px;
     padding-bottom: 0px;
@@ -183,31 +183,30 @@
     margin-bottom: 20px;
     padding: 10px;
   }
-/*   
-  .textBoxDiv {
-    width: 94%;
-    margin: 150px auto 0 auto;
-  } */
 }
 
+
 @media only screen and (min-width: 800px) {
+
   .formComponent {
     padding-top: 180px;
     padding-bottom: 680px;
   }
 }
 
+
 @media only screen and (min-width: 1144px) {
- .infoContainer {
-  float: left;
-  width: 28%;
-  text-align: justify;
-  background: rgba(14, 14, 29, 0.78);;
-  margin-top: 33px;
-  margin-right: 30px;
-  padding: 35px 35px 20px;
-  border-radius: 8px;
-}
+
+  .infoContainer {
+    float: left;
+    width: 28%;
+    text-align: justify;
+    background: rgba(14, 14, 29, 0.78);;
+    margin-top: 33px;
+    margin-right: 30px;
+    padding: 35px 35px 20px;
+    border-radius: 8px;
+  }
 
   #reserveForm {
     width: 90%;

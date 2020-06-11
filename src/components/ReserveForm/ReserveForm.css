@@ -1,4 +1,4 @@
- #reserveFormComponent {
+#reserveFormComponent {
     background-color:#142751;
     background-image: url('./../../assets/images/sunset.jpeg');
     background-repeat: no-repeat;
@@ -44,69 +44,69 @@
   font-weight: bolder;
   color: #1774df;
 }
-     
-  .reserveFormContainer {
-    width:  90%; 
-    max-width: 420px;
-    margin:  150px auto; 
-    padding: 20px;
-    font-size: 8px;
-    background-color:  #e5dad1; 
-    border-radius:  3px; 
-    -webkit-box-shadow: 5px 5px 15px 9px rgb(15, 12, 12, .5); 
-    box-shadow:  3px 3px 10px 6px rgb(15, 12, 12, .5) 
-  }
 
+.reserveFormContainer {
+  width:  90%; 
+  max-width: 420px;
+  margin:  150px auto; 
+  padding: 20px;
+  font-size: 8px;
+  background-color:  #e5dad1; 
+  border-radius:  3px; 
+  -webkit-box-shadow: 5px 5px 15px 9px rgb(15, 12, 12, .5); 
+  box-shadow:  3px 3px 10px 6px rgb(15, 12, 12, .5) 
+}
 
-  .formLabel {
-    font-size:  20px; 
-    margin:  0 0 0 0; 
-    font-weight: bold;
-    color: #635d5e;
-    font-family: sans-serif;
-  }
-  
-  .inputField {
+.formLabel {
+  font-size:  20px; 
+  margin:  0 0 0 0; 
+  font-weight: bold;
+  color: #635d5e;
+  font-family: sans-serif;
+}
+
+.inputField {
+  border:  1px solid #9c9da0c4; 
+  width:  100%; 
+  height:  66px; 
+  margin:  0 0 15px 0; 
+  border-radius: 3px;
+  font-size:  16px; 
+  padding-left: 10px;
+  font-weight: 500;
+
+}
+
+.messageField {
+    width: 100%;
+    height: 120px;
     border:  1px solid #9c9da0c4; 
-    width:  100%; 
-    height:  66px; 
-    margin:  0 0 15px 0; 
     border-radius: 3px;
-    font-size:  16px; 
+    font-size:  14px; 
     padding-left: 10px;
     font-weight: 500;
+}
 
-  }
-  
-  .messageField {
-      width: 100%;
-      height: 120px;
-      border:  1px solid #9c9da0c4; 
-      border-radius: 3px;
-      font-size:  14px; 
-      padding-left: 10px;
-      font-weight: 500;
-  }
+.submitButton {
+  width: 80%;
+  height: 40px;
+  margin: 35px 0 20px 10%;
+  font-size:  22px; 
+  background-color: #f59d45;
+  border-radius:  1px; 
+  border: none;
+  webkit-box-shadow:  2px 2px 5px 3px rgb(15, 12, 12, .7); 
+  box-shadow:  2px 2px 5px 3px rgb(15, 12, 12, .7); 
+}
 
-  .submitButton {
-    width: 80%;
-    height: 40px;
-    margin: 35px 0 20px 10%;
-    font-size:  22px; 
-    background-color: #f59d45;
-    border-radius:  1px; 
-    border: none;
-    webkit-box-shadow:  2px 2px 5px 3px rgb(15, 12, 12, .7); 
-    box-shadow:  2px 2px 5px 3px rgb(15, 12, 12, .7); 
-  }
 
-  @media screen and (min-width: 800px) {
-    #reserveFormComponent {
-      padding-top: 170px;
-      
-    }
-  }
+@media screen and (min-width: 800px) {
 
+  #reserveFormComponent {
+    padding-top: 170px;
+    
+  }
+}
 
 
 @media screen and (min-width: 1023px) {
@@ -133,6 +133,4 @@
     font-size:  15px; 
     border-radius:  1px; 
   }
-
-
-  }
+}

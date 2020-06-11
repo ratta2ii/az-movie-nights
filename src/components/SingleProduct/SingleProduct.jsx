@@ -3,14 +3,12 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import styles from './SingleProduct.css';
-// import c from './../../constants';
 
 
 
 function SingleProduct(props) {
 
   function handleSavingSelectedProduct(productId) {
-
     const { dispatch } = props;
     const action = {
       type: 'SELECT_PRODUCT',
@@ -35,7 +33,6 @@ function SingleProduct(props) {
 
   );
 }
-
 
 SingleProduct.propTypes = {
   title: PropTypes.string,

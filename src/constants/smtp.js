@@ -1,5 +1,6 @@
 
-
+// This generates the email from the Reservation Form
+// Update recipient of email within the form component
 export var Email = {
   send: function (a) {
     // eslint-disable-next-line no-unused-vars
@@ -28,7 +29,6 @@ export var Email = {
     return 'withCredentials' in t ? t.open(e, n, !0) : 'undefined' != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t;
   }
 };
-
 
 
 // This is the same as the above

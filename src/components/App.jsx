@@ -17,10 +17,8 @@ import Images from './Images/Images';
 
 class App extends React.Component {
 
-
   render() {
 
-   
     return (
 
       <div style={background}>
@@ -28,14 +26,13 @@ class App extends React.Component {
         <Navbar />
         <Switch>
 
-          <Route path='/formTest' render={() => <MyForm
-            wishList={this.props.wishList}
-          />} />
-
           <Route exact path='/' render={() => <Home
             productList={this.props.masterProductList} />} />
 
-          <Route exact path='/images' render={() => <Images />} />
+          <Route path='/formTest' render={() => <MyForm
+            wishList={this.props.wishList} />} />
+
+          <Route path='/images' render={() => <Images />} />
 
           <Route path='/productdetails' render={() => <ProductDetails
             productList={this.props.masterProductList}
@@ -43,7 +40,7 @@ class App extends React.Component {
             wishList={this.props.wishList} />} />
 
           <Route path='/wishlist' render={() => <WishList
-            currentRouterPath={this.props.location.pathname} 
+            currentRouterPath={this.props.location.pathname}
             wishList={this.props.wishList} />} />
 
           <Route path='/reserveform' render={() => <ReserveForm
@@ -55,7 +52,7 @@ class App extends React.Component {
           />} />
 
           <Route component={Error404} />
-          
+
         </Switch>
         {/* <style global jsx>{` `}</style> */}
       </div>
@@ -65,7 +62,6 @@ class App extends React.Component {
 
 }
 
-
 App.propTypes = {
   masterProductList: PropTypes.array,
   wishList: PropTypes.object,
@@ -73,7 +69,6 @@ App.propTypes = {
   location: PropTypes.object,
   currentRouterPath: PropTypes.string
 };
-
 
 const mapStateToProps = state => {
   return {
@@ -83,7 +78,6 @@ const mapStateToProps = state => {
   };
 };
 
-
 export default withRouter(connect(mapStateToProps)(App));
 
 
@@ -91,10 +85,6 @@ export default withRouter(connect(mapStateToProps)(App));
 /* ------------------ CSS Styling Below ------------------ */
 
 var background = {
-  // backgroundImage: `url(${bgImage})`,
-  // backgroundColor: '#595967',
-  // backgroundColor: '#0C0D1D',
-  // background: 'rgba(13, 14, 29, 1)',
   backgroundColor: 'rgb(12, 13, 29)',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '100% 100%',

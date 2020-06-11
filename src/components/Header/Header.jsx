@@ -15,11 +15,8 @@ export default function Header() {
           <p className={styles.commentMain}>"AZ Event Team has provided an awesome experience. The movie was the hit of the hit of the party. I will defintley book again."</p>
           <p className={styles.commentSignature}>- Satisfied Customer</p>
         </div>
-        
+
       </div>
-
     </div>
-
   );
-
 }

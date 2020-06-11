@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styles from './WishList.css';
 import Wish from './../Wish/Wish';
-import { render } from 'react-dom';
+
+
 
 function WishList(props) {
 
@@ -17,11 +18,9 @@ function WishList(props) {
   }
 
   return (
-
     <div id={styles.wishListComponent}>
       <div className={styles.wishListContainer}>
         <h1 className={styles.wishListHeader}>UNDER CONSTRUCTION, but here is the data.</h1>
-
         {Object.keys(props.wishList).map(function (productId) {
           var product = props.wishList[productId];
           return <Wish

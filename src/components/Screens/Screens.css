@@ -4,14 +4,12 @@
   padding: 0;
 }
 
-
 .screensGridContainer {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   padding: 0 10% 10% 10%;
   letter-spacing: 1px;
 } 
-
 
 .screensImageContainer { 
   grid-area: screensImageContainer; 
@@ -21,7 +19,6 @@
   padding-bottom: 15px;
 }
 
-
 .screensInfoContainer { 
   grid-area: screensInfoContainer;
   width: 100%;
@@ -29,7 +26,6 @@
   text-align: justify; 
   text-justify: inter-character;
 }
-
 
 .screensImageStyling {
   width: 100%;
@@ -82,14 +78,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 @media screen and (min-width:500px) {
 
   .screensImageContainer { 
@@ -97,7 +85,6 @@
     margin: 0 auto;
     padding-top: 40px;
   }
-  
   
   .screensInfoContainer { 
     padding: 0 20px 35px;
@@ -130,15 +117,12 @@
 }
 
 
-
-
 @media screen and (min-width:700px) {
 
   .screensImageContainer { 
     padding-top: 70px;
   }
   
-
   .screensHeader {
     font-size: 40px;
   }
@@ -158,13 +142,11 @@
   .dimensionsListElements {
     font-size: 14px;
   }
-
 }
 
 
 
 @media screen and (min-width:900px) {
-
 
   .screensImageContainer { 
     padding: 110px 50px 50px;
@@ -176,11 +158,10 @@
   }
 
   .screensHeader {
-     padding: 30px;
-     width: 80%;
-     margin: 0 auto 30px;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto 30px;
   }
-
 }
 
 
@@ -231,7 +212,6 @@
   .screensImageStyling {
     padding: 10px;
   }  
-
 }
 
 
@@ -263,7 +243,6 @@
     padding: 75px;
   }
 
-
   .screensHeader {
     width: 100%;
     font-size: 35px;
@@ -275,7 +254,5 @@
     padding: 10px;
     margin-top: 50px;
   }  
-
 }
- 
- 
+

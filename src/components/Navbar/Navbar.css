@@ -1,15 +1,12 @@
-
 /* Nav Bar */
 .navComponent {
   background-color: rgba(13, 14, 29, 1);
   height: 100px;
 }
 
-
 .navbarContainer {
   display: none;
 }
-
 
 .ulTag {
   display: none;
@@ -18,13 +15,11 @@
   padding: 0;
 }
 
-
 .ulTag2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 
 .anchorTag {
   text-decoration: none;
@@ -35,7 +30,6 @@
   background-color: #b3bfdc;
   color: #000;
 }
-
 
 .listElements {
   float: left;
@@ -48,7 +42,6 @@
   margin: 35px -2px;
   letter-spacing: 1px;
 }
-
 
 .homeLink {
   float: left;
@@ -101,7 +94,6 @@
   right: 50px;
 }
 
-
 /* To activate sidebar */
 /* .active in Nav.jsx */
 
@@ -117,6 +109,7 @@
 /* ------------ Media Queries for responsive design below ----------------- */
 
 @media only screen and (min-width: 800px) {
+  
   .navComponent {
     height: 120px;
     position: fixed;
@@ -133,11 +126,5 @@
   .navbarContainer {
     display: unset;
   }
-
-  /* .contactContainer {
-    float: right;
-    color: white;
-    margin: 10px 35px;
-  } */
 
 }

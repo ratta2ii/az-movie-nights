@@ -4,12 +4,10 @@ import PropTypes from 'prop-types';
 import styles from './ProductDetails.css';
 
 
+
 // Reminder that masterProductList will be static(?), so this can be removed as a 
 // state slice, and imported in as a constant (import c from './../../constants';)
-
-
 function ProductDetails(props) {
-
 
   function handleAddToWishList(props) {
     let arrPosition = props.selectedProduct.productId;
@@ -24,7 +22,6 @@ function ProductDetails(props) {
   }
 
   let productContent = null;
-
   let currentProductId = props.selectedProduct.productId;
   let productList = props.masterProductList;
 
@@ -35,14 +32,15 @@ function ProductDetails(props) {
           <h1 className={styles.construction}>This page still needs styling!</h1>
           <h1 className={styles.construction}>More data coming as well.</h1>
           {/* <h1 className={styles.productId}>Product Id: {ele.productId}</h1> */}
+
           <div className={styles.modalImageDiv}>
             <img className={styles.modalImage} src={ele.mainImage} />
           </div>
+
           <div>
             <h1 className={styles.productTitle}>{ele.title}</h1>
             <p className={styles.productDescription}>{ele.description}</p>
-          
-           
+
             <div className={styles.addWishButton} onClick={() => { handleAddToWishList(props); }}>
               ADD TO WISHLIST
             </div>
@@ -75,7 +73,6 @@ function ProductDetails(props) {
       </div>
     );
   }
-
 }
 
 ProductDetails.propTypes = {
